@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>თავფურცელი on Pollster.ge</title>
-    <link>http://example.org/ka/</link>
+    <link>https://davidsichinava.github.io/pollster.ge/ka/</link>
     <description>Recent content in თავფურცელი on Pollster.ge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/ka/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davidsichinava.github.io/pollster.ge/ka/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Methodology</title>
-      <link>http://example.org/ka/methods/</link>
+      <link>https://davidsichinava.github.io/pollster.ge/ka/methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/ka/methods/</guid>
+      <guid>https://davidsichinava.github.io/pollster.ge/ka/methods/</guid>
       <description>საშუალო შეწონილი ეს მიდგომა 2016 წლიდან 2018 წლის ჩათვლით, ქვეყანაში ჩატარებული და ღიად ხელმისაწვდომი გამოკითხვების გასაშუალოებულ შედეგებს ეფუძნება, რომელთა დეტალური აღწერა შეგიძლიათ, ამ გვერდზე ნახოთ. როგორც შეამჩნევდით, მონაცემები ამომწურავი არაა, რაც პირველწყაროს არასრულყოფილებითაა გამოწვეული - იშვიათი გამონაკლისების გარდა, გამოკითხვების ავტორები მეთოდოლოგიას, კითხვების ფორმულირებას და მით უმეტეს - ნედლ მონაცემებს არასდროს ასაჯაროებენ. პროგნოზის საშუალო შეწონილი მეთოდი საკმაოდ მარტივია - აღებულია მხოლოდ ის პასუხები, რომლებმაც რომელიმე კონკრეტული საპრეზიდენტო კანდიდატი დაასახელეს. წონებად გამოყენებულია არჩევნებამდე დარჩენილი დღეები - ვუშვებთ, რომ კვლევა რაც უფრო ახლოსაა ხმის მიცემის დღესთან, მით უფრო აკურატულად ასახავს საზოგადოებრივ განწყობებს.</description>
     </item>
     
     <item>
       <title>ჩვენს შესახებ</title>
-      <link>http://example.org/ka/about/</link>
+      <link>https://davidsichinava.github.io/pollster.ge/ka/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/ka/about/</guid>
+      <guid>https://davidsichinava.github.io/pollster.ge/ka/about/</guid>
       <description></description>
     </item>
     
