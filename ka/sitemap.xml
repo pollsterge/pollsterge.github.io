@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/ka/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="http://example.org/ka/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/ka/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="http://example.org/ka/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/ka/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="http://example.org/ka/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/ka/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="http://example.org/ka/about/"
+                />
+  </url>
+  
+</urlset>
