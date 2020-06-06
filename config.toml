@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Pollster.ge"
+# theme = "aether"
+# theme = "twentyfourteen"
+theme = "techdoc"
+DefaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "Pollster.ge"
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 1
+  [languages.ka]
+    title = "Pollster.ge"
+    contentDir = "content/kartuli"
+    languageName = "ქართული"
+    weight = 2
+defaultContentLanguageInSubdir = true
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "Twitter"
+        url = "https://twitter.com/thingsym"
+        weight = 2
