@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>http://example.org/methods/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="http://example.org/ka/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/methods/"
+                />
+  </url>
+  
+  <url>
     <loc>http://example.org/tags/</loc>
     <xhtml:link
                 rel="alternate"
