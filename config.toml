@@ -1,9 +1,9 @@
 baseURL = "https://davidsichinava.github.io/pollster.ge"
-languageCode = "en-us"
+languageCode = "en-US"
 title = "Pollster.ge"
 # theme = "aether"
-# theme = "twentyfourteen"
-theme = "techdoc"
+theme = "twentyfourteen"
+# theme = "techdoc"
 # theme = "hugo-flex"
 # theme = "minimal-bootstrap-hugo-theme"
 
@@ -39,3 +39,4 @@ DefaultContentLanguage = "en"
 	weight = 0
 
 defaultContentLanguageInSubdir = true
+
