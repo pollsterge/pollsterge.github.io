@@ -3,47 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://davidsichinava.github.io/pollster.ge/ka/posts/</loc>
+    <loc>https://davidsichinava.github.io/pollster.ge/ka/predictions_runoff_2018/</loc>
     <lastmod>2019-03-26T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidsichinava.github.io/pollster.ge/posts/"
+                href="https://davidsichinava.github.io/pollster.ge/predictions_runoff_2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="https://davidsichinava.github.io/pollster.ge/ka/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidsichinava.github.io/pollster.ge/ka/</loc>
-    <lastmod>2019-03-26T08:47:11+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidsichinava.github.io/pollster.ge/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="https://davidsichinava.github.io/pollster.ge/ka/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidsichinava.github.io/pollster.ge/ka/posts/predictions_runoff_2018/</loc>
-    <lastmod>2019-03-26T08:47:11+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidsichinava.github.io/pollster.ge/posts/predictions_runoff_2018/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="https://davidsichinava.github.io/pollster.ge/ka/posts/predictions_runoff_2018/"
+                href="https://davidsichinava.github.io/pollster.ge/ka/predictions_runoff_2018/"
                 />
   </url>
   
@@ -86,6 +56,20 @@
                 rel="alternate"
                 hreflang="ka"
                 href="https://davidsichinava.github.io/pollster.ge/ka/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://davidsichinava.github.io/pollster.ge/ka/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://davidsichinava.github.io/pollster.ge/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="https://davidsichinava.github.io/pollster.ge/ka/"
                 />
   </url>
   
