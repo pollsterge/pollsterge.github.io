@@ -40,3 +40,4 @@ DefaultContentLanguage = "en"
 
 defaultContentLanguageInSubdir = true
 
+canonifyURLs =  true
