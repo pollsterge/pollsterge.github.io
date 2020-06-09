@@ -8,6 +8,14 @@ title = "Pollster.ge"
 # theme = "minimal-bootstrap-hugo-theme"
 theme = "anubis"
 
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "This is the blog section"
+    title = "blog section"
+    url = "/about/"
+    weight = -110
 
 DefaultContentLanguage = "en"
 [languages]
@@ -23,9 +31,9 @@ DefaultContentLanguage = "en"
   weight = 1
 
 [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
   weight = 2
 
   [languages.ka]
@@ -40,12 +48,14 @@ DefaultContentLanguage = "en"
   weight = 1
 
 [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+  identifier = "posts"
+  name = "პოსტები"
+  url = "/posts/"
   weight = 2
 
 
 defaultContentLanguageInSubdir = true
 
 canonifyURLs =  true
+
+sectionPagesMenu = "main"
