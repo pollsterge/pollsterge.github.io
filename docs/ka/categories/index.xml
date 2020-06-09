@@ -3,11 +3,11 @@
   <channel>
     <title>Categories on Pollster.ge</title>
     <link>https://davidsichinava.github.io/pollster.ge/ka/categories/</link>
-    <description>Recent content in Categories on Pollster.ge</description>
+    <description>Pollster.ge (Categories)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://davidsichinava.github.io/pollster.ge/ka/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidsichinava.github.io/pollster.ge/ka/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

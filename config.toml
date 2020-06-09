@@ -3,9 +3,10 @@ languageCode = "en-US"
 title = "Pollster.ge"
 # theme = "aether"
 # theme = "twentyfourteen"
-theme = "techdoc"
+# theme = "techdoc"
 # theme = "hugo-flex"
 # theme = "minimal-bootstrap-hugo-theme"
+theme = "anubis"
 
 
 DefaultContentLanguage = "en"
@@ -15,28 +16,35 @@ DefaultContentLanguage = "en"
     contentDir = "content/english"
     languageName = "English"
     weight = 1
-	[[languages.en.menu.main]]
-	url    = "/"
-	name   = "Home"
-	weight = 0
-	[[languages.en.menu.main]]
-	url    = "/methods"
-	name   = "Methodology"
-	weight = 0
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
 
   [languages.ka]
     title = "Pollster.ge"
     contentDir = "content/kartuli"
     languageName = "ქართული"
     weight = 2
-	[[languages.ka.menu.main]]
-	url    = "/"
-	name   = "თავფურცელი"
-	weight = 0
-	[[languages.ka.menu.main]]
-	url    = "/methods"
-	name   = "მეთოდოლოგია"
-	weight = 0
+[[menu.main]]
+  identifier = "about"
+  name = "ჩვენს შესახებ"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
+
 
 defaultContentLanguageInSubdir = true
 

@@ -3,11 +3,11 @@
   <channel>
     <title>Tags on Pollster.ge</title>
     <link>https://davidsichinava.github.io/pollster.ge/ka/tags/</link>
-    <description>Recent content in Tags on Pollster.ge</description>
+    <description>Pollster.ge (Tags)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://davidsichinava.github.io/pollster.ge/ka/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidsichinava.github.io/pollster.ge/ka/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
