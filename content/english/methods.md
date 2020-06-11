@@ -1,5 +1,6 @@
 ---
 title: "Methodology"
+headless: true
 translationKey: "methods"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "პირველი ტურის პროგნოზები, ეგზიტპოლების შედეგებზე დაყრდნობით (,,ფსიქოპროექტის'' შედეგების გამოკლებით)"
+headless: true
 date: 2018-10-28T08:47:11+01:00
 translationKey: "main_2018"
 ---
@@ -7,8 +8,8 @@ translationKey: "main_2018"
 ### შეწონილი საშუალო
 
 
-![Image](../img/plot1.png)
+![Image](/images/predictions_presidential_2018_first_nopsych/ka/plot1.png)
 
 ### სიმულირებული პროპორციები
 
-![Image](../img/plot2.png)
+![Image](/images/predictions_presidential_2018_first_nopsych/ka/plot2.png)

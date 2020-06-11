@@ -1,5 +1,6 @@
 ---
 title: "About"
+headless: true
 translationKey: "about"
 ---
 

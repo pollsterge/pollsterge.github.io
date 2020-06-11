@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "BPG_upper";
+    src:url("fonts/bpg-arial-caps-webfont.ttf");
+}
+
+@font-face {
+    font-family: "BPG_lower";
+	src:url("fonts/bpg-arial-webfont.ttf");
+}
+
+harlow{
+    font-family:"BPG_upper";
+	font-family:"BPG_lower";
+}
+
+.reveal section del,
+.reveal section p,
+.reveal section li,
+.reveal section ul{
+  font-family: BPG_lower;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: "BPG_upper";
+}
+
+h2 {
+  font-size: 14px;
+  font-family: "BPG_upper";
+}
+
+h3 {
+  font-size: 12px;
+  font-family: "BPG_upper";
+}
+
+body{ /* Normal  */
+      font-size: 12px;
+	  font-family: "BPG_lower";
+}
