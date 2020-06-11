@@ -64,18 +64,21 @@ h1 {
     font-size: 1.2em;
 	font-family: "BPG_upper";
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 h2 {
     font-size: 1.1em;
 	font-family: "BPG_upper";
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 h3 {
     font-size: 1.05em;
 	font-family: "BPG_upper";
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 /* Links */
@@ -197,6 +200,7 @@ header h1 {
     font-weight: normal;
 	font-family: "BPG_upper";
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 header h2 {
@@ -205,6 +209,7 @@ header h2 {
     font-weight: normal;
 	font-family: "BPG_upper";
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 header nav {
@@ -214,6 +219,7 @@ header nav {
     margin-bottom: 1em;
 	font-family: "BPG_upper";
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 header nav a {
