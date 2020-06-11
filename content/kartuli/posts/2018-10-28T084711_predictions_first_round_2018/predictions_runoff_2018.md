@@ -7,8 +7,8 @@ translationKey: "main_2018"
 ### შეწონილი საშუალო
 
 
-![Image](img/plot1.png)
+![Image](../img/plot1.png)
 
 ### სიმულირებული პროპორციები
 
-![Image](img/plot2.png)
+![Image](../img/plot2.png)

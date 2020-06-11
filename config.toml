@@ -1,28 +1,17 @@
 baseURL = "https://davidsichinava.github.io/pollster.ge"
-languageCode = "en-US"
+# languageCode = "en-US"
+defaultContentLanguageInSubdir = false
+DefaultContentLanguage = "en"
 title = "Pollster.ge"
-# theme = "aether"
-# theme = "twentyfourteen"
-# theme = "techdoc"
-# theme = "hugo-flex"
-# theme = "minimal-bootstrap-hugo-theme"
 theme = "anubis"
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "This is the blog section"
-    title = "blog section"
-    url = "/about/"
-    weight = 1
-
-DefaultContentLanguage = "ka"
 [languages]
   [languages.en]
     title = "Pollster.ge"
     contentDir = "content/english"
     languageName = "English"
     weight = 1
+
 [[languages.en.menu.main]]
   identifier = "about"
   name = "About"
@@ -44,17 +33,14 @@ DefaultContentLanguage = "ka"
 [[languages.ka.menu.main]]
   identifier = "about"
   name = "ჩვენს შესახებ"
-  url = "/about/"
+  url = "../ka/about/"
   weight = 1
 
 [[languages.ka.menu.main]]
   identifier = "methods"
   name = "მეთოდოლოგია"
-  url = "/methods/"
+  url = "../ka/methods/"
   weight = 2
-
-
-defaultContentLanguageInSubdir = true
 
 [taxonomies]
 category = "categories"
