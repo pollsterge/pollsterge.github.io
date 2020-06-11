@@ -1,19 +1,9 @@
-<header>
-<h1>{{ .Site.Title }}</h1>
-{{ with .Site.Params.version }}
- <span class="version">Version {{ . }}</span>
-{{end}}
-{{- with .Site.Params.github_repository -}}
-<a href="{{ . }}" class="github"><i class="fab fa-github"></i></a>
-{{- end -}}
-{{ with .Site.Params.description }}
-<p class="description">{{ . }}</p>
-{{end}}
-</header>
-<div>
-        <ul class="language-list">
-            {{ range $.Site.Home.AllTranslations }}
-            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-            {{ end }}
-        </ul>
-</div>
+<h1 class="site-header">
+    <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+</h1>
+<nav>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+</nav>

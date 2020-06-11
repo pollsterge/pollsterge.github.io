@@ -9,53 +9,53 @@ title = "Pollster.ge"
 theme = "anubis"
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "This is the blog section"
     title = "blog section"
     url = "/about/"
-    weight = -110
+    weight = 1
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ka"
 [languages]
   [languages.en]
     title = "Pollster.ge"
     contentDir = "content/english"
     languageName = "English"
     weight = 1
-[[menu.main]]
+[[languages.en.menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
   weight = 1
 
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
+[[languages.en.menu.main]]
+  identifier = "methods"
+  name = "Methodology"
+  url = "/Methods/"
   weight = 2
 
-  [languages.ka]
+[languages.ka]
     title = "Pollster.ge"
     contentDir = "content/kartuli"
     languageName = "ქართული"
     weight = 2
-[[menu.main]]
+	
+[[languages.ka.menu.main]]
   identifier = "about"
   name = "ჩვენს შესახებ"
   url = "/about/"
   weight = 1
 
-[[menu.main]]
-  identifier = "posts"
-  name = "პოსტები"
-  url = "/posts/"
+[[languages.ka.menu.main]]
+  identifier = "methods"
+  name = "მეთოდოლოგია"
+  url = "/methods/"
   weight = 2
 
 
 defaultContentLanguageInSubdir = true
 
-canonifyURLs =  true
-
-sectionPagesMenu = "main"
+[taxonomies]
+category = "categories"
+tag = "tags"

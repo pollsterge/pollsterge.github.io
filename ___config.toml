@@ -1,0 +1,35 @@
+# baseURL = "https://example.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Anubis"
+theme = "anubis"
+paginate = 3
+
+[author]
+  name = "Dmitry Kolosov"
+
+[params]
+   author = "Dmitry Kolosov"
+   description = "Anubis is a simple minimalist theme for Hugo blog engine."
+
+[languages.en]
+  languageName = "English"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[languages.ka]
+  languageName = "ქართული"
+
+[[languages.ka.menu.main]]
+  identifier = "about"
+  name = "შესახებ"
+  url = "/about/"
+  weight = 1
+
+[taxonomies]
+category = "categories"
+tag = "tags"
