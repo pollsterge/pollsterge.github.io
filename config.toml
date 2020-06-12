@@ -1,4 +1,4 @@
-baseURL = "https://davidsichinava.github.io/pollster.ge"
+# baseURL = "https://davidsichinava.github.io/pollster.ge"
 # languageCode = "en-US"
 defaultContentLanguageInSubdir = false
 DefaultContentLanguage = "en"
@@ -16,19 +16,19 @@ theme = "anubis"
 [[languages.en.menu.main]]
   identifier = "about"
   name = "About"
-  url = "../pollster.ge/about/"
+  url = "/about/"
   weight = 1
 
 [[languages.en.menu.main]]
   identifier = "methods"
   name = "Methodology"
-  url = "../pollster.ge/methods/"
+  url = "/methods/"
   weight = 2
 
 [[languages.en.menu.main]]
   identifier = "maps"
   name = "Map"
-  url = "../pollster.ge/maps_18/"
+  url = "/maps_18/"
   weight = 3
  
 [languages.ka]
