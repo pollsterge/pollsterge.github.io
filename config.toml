@@ -16,19 +16,19 @@ theme = "anubis"
 [[languages.en.menu.main]]
   identifier = "about"
   name = "About"
-  url = "/about/"
+  url = "../en/about/"
   weight = 1
 
 [[languages.en.menu.main]]
   identifier = "methods"
   name = "Methodology"
-  url = "/methods/"
+  url = "../en/methods/"
   weight = 2
 
 [[languages.en.menu.main]]
   identifier = "maps"
   name = "Map"
-  url = "/maps_18/"
+  url = "../en/maps_18/"
   weight = 3
  
 [languages.ka]
