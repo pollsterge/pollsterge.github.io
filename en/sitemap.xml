@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>/en/</loc>
     <lastmod>2018-11-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -13,12 +13,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/en/"
                 />
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/en/posts/</loc>
     <lastmod>2018-11-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -28,12 +28,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/"
+                href="/en/posts/"
                 />
   </url>
   
   <url>
-    <loc>/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/</loc>
+    <loc>/en/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/</loc>
     <lastmod>2018-11-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -43,12 +43,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/"
+                href="/en/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/"
                 />
   </url>
   
   <url>
-    <loc>/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/</loc>
+    <loc>/en/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/</loc>
     <lastmod>2018-10-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -58,12 +58,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/"
+                href="/en/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/"
                 />
   </url>
   
   <url>
-    <loc>/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/</loc>
+    <loc>/en/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/</loc>
     <lastmod>2018-10-28T07:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -73,12 +73,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/"
+                href="/en/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/"
                 />
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -87,12 +87,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/about/"
+                href="/en/about/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -101,12 +101,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>/methods/</loc>
+    <loc>/en/methods/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -115,12 +115,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/methods/"
+                href="/en/methods/"
                 />
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -129,12 +129,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/en/tags/"
                 />
   </url>
   
   <url>
-    <loc>/maps_18/</loc>
+    <loc>/en/maps_18/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
@@ -143,7 +143,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/maps_18/"
+                href="/en/maps_18/"
                 />
   </url>
   
