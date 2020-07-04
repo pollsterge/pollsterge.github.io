@@ -18,62 +18,122 @@
   </url>
   
   <url>
-    <loc>/ka/posts/</loc>
+    <loc>/ka/elections_2018/</loc>
     <lastmod>2018-11-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/"
+                href="/en/elections_2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/posts/"
+                href="/ka/elections_2018/"
                 />
   </url>
   
   <url>
-    <loc>/ka/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/</loc>
+    <loc>/ka/elections_2018/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/</loc>
     <lastmod>2018-11-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/"
+                href="/en/elections_2018/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/"
+                href="/ka/elections_2018/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/"
                 />
   </url>
   
   <url>
-    <loc>/ka/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/</loc>
+    <loc>/ka/elections_2018/2018-11-28t100000_final_maps/map/</loc>
+    <lastmod>2018-11-28T00:00:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2018-11-28t100000_final_maps/map/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2018-11-28t100000_final_maps/map/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/</loc>
     <lastmod>2018-10-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/"
+                href="/en/elections_2018/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/"
+                href="/ka/elections_2018/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/"
                 />
   </url>
   
   <url>
-    <loc>/ka/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/</loc>
+    <loc>/ka/elections_2018/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/</loc>
     <lastmod>2018-10-28T07:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/"
+                href="/en/elections_2018/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/"
+                href="/ka/elections_2018/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2018-10-15t000011_candidates_2018/candidates/</loc>
+    <lastmod>2018-10-15T00:00:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2018-10-15t000011_candidates_2018/candidates/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2018-10-15t000011_candidates_2018/candidates/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2018-11-28t084711_live/live/</loc>
+    <lastmod>2018-10-15T00:00:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2018-11-28t084711_live/live/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2018-11-28t084711_live/live/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2018-10-10t000011_polls_2018/polls/</loc>
+    <lastmod>2018-10-10T00:00:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2018-10-10t000011_polls_2018/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2018-10-10t000011_polls_2018/polls/"
                 />
   </url>
   

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script type="text/javascript" src="/js/lib/dummy.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  <style type="text/css">
+    
+  </style>
+
+  <title>2018 წლის საპრეზიდენტო არჩევნები</title>
+
+  
+</head>
+
+<body>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="http://code.highcharts.com/stock/highstock.js"></script>
+<script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="js/grouped-categories.js"></script>
+<div id="container" style="min-width: 100; height: 200; margin: 0 auto"></div>
+
+  
+
+ <style type="text/css">
+@font-face {
+    font-family: "BPG_upper";
+	src:url("fonts/BPG_GEL_Excelsior_Caps.ttf");
+}
+@font-face {
+    font-family: "BPG_lower";
+	src:url("fonts/BPG_Excelsior.ttf");
+}
+  </style>
+  
+
+
+<script type='text/javascript'>//<![CDATA[
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'bar'
+    },
+	credits: {enabled: false
+	},
+	responsive: {
+	  rules: [{
+		condition: {
+		  maxWidth: 500
+		},
+		chartOptions: {
+		  legend: {
+			enabled: false
+		  }
+		}
+	  }]
+	},
+
+
+    title: {
+        text: 'საარჩევნო აქტივობა საქართველოს არჩევნებში, 1990-2018 (%)',
+		style:{
+		fontFamily: "BPG_upper"
+		}
+    },
+		responsive: {
+			  rules: [{
+				condition: {
+				  maxWidth: 500
+				}
+			  }]
+	},
+	
+    xAxis: [{
+        categories: [{
+			name: 'საპრეზიდენტო', 
+			categories: [1991, 1995, 2000,2004,2008,2013,2018]
+			},{
+			name: 'საპარლამენტო', 
+			categories: [1990,1992,1995,1999,2003,2004,2008,2012,2016]
+			},{
+			name: 'ადგილობრივი', 
+			categories: [2006,2010,2014,2017]
+			}]
+//		labels: {
+//            rotation: -90
+//        }
+	}],
+	
+    yAxis: {
+        min: 0,
+        max: 100,
+		tickInterval: 20,
+        title: {
+            text: ''
+        }
+    },
+    legend: {
+        //align: 'center',
+        //verticalAlign: 'top',
+        //floating: true,
+		reversed: false
+    },
+    plotOptions: {
+        series: {
+            stacking: null,
+			dataLabels: {
+							enabled: true,
+						style: {
+							color: 'black',
+							fontWeight: 'bold',
+							textOutline: false
+					   }
+					}
+        }
+    },
+	      tooltip: {
+            shared: true
+        },
+    series: [{ 
+		name: 'აქტივობა, (%)',
+		color:  'green',
+        data: [83, 69, 76, 88, 56, 47, 47, 67, 74, 68, 68, 60, 64, 53, 61, 52, 48, 49, 43, 46]
+    },{ showInLegend: false,
+		name: 'აქტივობა, აბს.',
+		color:  'red',
+        data: [2978247, 2139369, 2343176, 1963556, 1982318, 1660976, 1637956, 2307480, 2575197, 2127946, 2133878, 1909215, 1498012, 1850407, 2215661, 1814276, 1546936, 1740652, 1485372, 1570563],
+		visible: false
+    },{ showInLegend: false,
+		name: 'ამომრჩეველთა რ-ნობა',
+		color:  'blue',
+        data: [3594810, 3106557, 3088925, 2231986, 3527964, 3537719, 3504082, 3444000, 3471866, 3121075, 3143851, 3178593, 2343087, 3465736, 3613851, 3513884, 3205634, 3544770, 3429748, 3440123],
+		visible: false
+
+    }]
+
+});
+
+</script>
+
+  <script>
+  // tell the embed parent frame the height of the content
+  // if (window.parent && window.parent.parent){
+      // window.parent.parent.postMessage(["resultsFrame", {
+        // height: document.body.getBoundingClientRect().height,
+        // slug: "None"
+      // }], "*")
+    // }
+</script>
+
+</body>
+
+</html>
+
