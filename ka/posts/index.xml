@@ -1,21 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pollster.ge</title>
     <link>/ka/posts/</link>
-    <description>Pollster.ge (Posts)</description>
+    <description>Recent content in Posts on Pollster.ge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 28 Nov 2018 08:47:11 +0100</lastBuildDate>
-    
     <atom:link href="/ka/posts/index.xml" rel="self" type="application/rss+xml" />
-    
     
     <item>
       <title>საარჩევნო პროგნოზები მეორე ტურის წინ</title>
       <link>/ka/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/</link>
       <pubDate>Wed, 28 Nov 2018 08:47:11 +0100</pubDate>
-      
       <guid>/ka/posts/2018-11-28t084711_predictions_runoff_2018/predictions_runoff_2018/</guid>
       <description>&lt;p&gt;ჩვენმა გუნდმა საარჩევნო პროგნოზები მეორე ტურის წინაც გამოაქვეყნა. არჩევნების ბაიესური მოდელის მიხედვით, სალომე ზურაბიშვილს გამარჯვების უფრო მეტი შანსი აქვს, ვიდრე - გრიგოლ ვაშაძეს. სიმულირებული ხმების მედიანური მნიშვნელობა ხელისუფლების მიერ მხარდაჭერილი კანდიდატისთვის დაახლოებით 52%-ს შეადგენს, ხოლო ვაშაძისთვის იგივე მაჩვენებელი 48%-ია.&lt;/p&gt;
 &lt;p&gt;თუკი ალბათობებს შევაფასებთ, დაახლოებით &lt;em&gt;65%-ია&lt;/em&gt; იმის შანსი, რომ ზურაბიშვილმა ვაშაძეზე მეტი ხმა მოაგროვოს. ეს იმას ნიშნავს, რომ ხელისუფლების კანდიდატის გამარჯვება უფრო მოსალოდნელია, ვიდრე - დამარცხება. თუმცა შეგახსენებთ, რომ სხვადასხვა პროგნოზის მიხედვით, ჰილარი კლინტონის წარმატების შანსები 2016 წლის ამერიკის საპრეზიდენტო არჩევნებში დაახლოებით &lt;a href=&#34;https://projects.fivethirtyeight.com/2016-election-forecast/&#34;&gt;71%&lt;/a&gt;-ს შეადგენდა.&lt;/p&gt;
@@ -30,7 +27,6 @@
       <title>პირველი ტურის პროგნოზები, ეგზიტპოლების შედეგებზე დაყრდნობით (,,ფსიქოპროექტის&#39;&#39; შედეგების გამოკლებით)</title>
       <link>/ka/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/</link>
       <pubDate>Sun, 28 Oct 2018 08:47:11 +0100</pubDate>
-      
       <guid>/ka/posts/2018-10-28t084711_predictions_first_round_2018/predictions_runoff_2018/</guid>
       <description>&lt;h3 id=&#34;შეწონილი-საშუალო&#34;&gt;შეწონილი საშუალო&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;/images/predictions_presidential_2018_first_nopsych/ka/plot1.png&#34; alt=&#34;Image&#34;&gt;&lt;/p&gt;
@@ -43,7 +39,6 @@
       <title>პირველი ტურის პროგნოზები, ეგზიტპოლების შედეგებზე დაყრდნობით</title>
       <link>/ka/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/</link>
       <pubDate>Sun, 28 Oct 2018 07:47:11 +0100</pubDate>
-      
       <guid>/ka/posts/2018-10-28t074711_predictions_first_round_2018_psych/predictions_runoff_2018/</guid>
       <description>&lt;h4 id=&#34;სიმულირებული-პროპორციები&#34;&gt;სიმულირებული პროპორციები&lt;/h4&gt;
 &lt;p&gt;საარჩევნო პროგნოზის ამ ვარიანტში წარმოდგენილია 2000-ჯერ სიმულირებული არჩევნების შედეგების განაწილება, დიაგრამებზე გაკეთებული წარწერები სიმულაციების მედიანურ მნიშვნელობებს აღნიშნავს. აქ ყურადღება უნდა მივაქციოთ იმას, რომ სალომე ზურაბიშილის შემთხვევაში, სიმულირებული შედეგების ზუსტად მეოთხედი კვეთს 50%-იან ზღვარს, რაც იმაზე მიგვითითებს, რომ 25%-ია იმის შანსი, რომ ხელისუფლების მიერ მხარდაჭერილი კანდიდატი პირველივე ტურში მოიპოვებს გამარჯვებას. შესაძლოა, 25%-იანი ალბათობა მცირედ მოგეჩვენოთ, მაგრამ 2016 წლის საპრეზიდენტო არჩევნებში დონალდ ტრამპის წარმატების შანსებს ერთ-ერთი პროგნოზი &lt;a href=&#34;https://projects.fivethirtyeight.com/2016-election-forecast/&#34;&gt;29%-ით&lt;/a&gt; აფასებდა. ასე, რომ მოულოდნელი არ იქნება, თუკი ზურაბიშვილი არჩევნების პირველივე ტურში მიაღწევს წარმატებას. ზურაბიშვილისგან განსხვავებით, ვაშაძემ 2000 სიმულაციიდან მხოლოდ ერთში გადალახა 50%-იანი ზღვარი, ხოლო ბაქრაძემ - ვერცერთში. ასე, რომ ამ ორი კანდიდატის გამარჯვება პირველ ტურში თითქმის საერთოდ არაა მოსალოდნელი.&lt;/p&gt;
