@@ -138,6 +138,20 @@
   </url>
   
   <url>
+    <loc>/ka/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/about/"
+                />
+  </url>
+  
+  <url>
     <loc>/ka/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -190,20 +204,6 @@
                 rel="alternate"
                 hreflang="ka"
                 href="/ka/maps_18/"
-                />
-  </url>
-  
-  <url>
-    <loc>/ka/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/about/"
                 />
   </url>
   

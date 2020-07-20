@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Noto Sans", sans-serif;
+        }
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        h1 {
+            position: absolute;
+            margin-top: 0;
+            top: 10px;
+            left: 15px;
+            font-size: 1.8em;
+            font-family: "Lora", serif;
+            letter-spacing: .04em;
+            padding: 10px 15px;
+            background: rgba(256, 256, 256, .8);
+            border: 1px solid grey;
+            border-radius: 3px;
+            z-index: 800;
+        }
+              .legend h3 {
+            font-size: 1.4em;
+            font-weight: bold;
+            line-height: 1em;
+            color: #3d3d3d;
+            margin: 10px 10px 10px auto;
+            text-align: left;
+        }
+
+        .legend span {
+            width: 30px;
+            height: 20px;
+            float: left;
+            margin: 0 10px 4px 0;
+        }
+
+        .legend label {
+            font-size: 1.1em;
+        }
+
+        .legend label:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id='map'></div>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
+    <script src='https://npmcdn.com/@turf/turf@3.5.1/turf.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.2.1/chroma.min.js"></script>
+    <script src="data/districtOutline.js"></script>
+    <script>
+        // instantiate our map
+        var map = L.map("map", {
+            center: [42.105628, 43.723102],
+            zoom: 7
+        });
+
+        // load some tiles
+        L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+/* async request to load point data and convert to Leaflet GeoJSON layer
+$.getJSON("data/opp-index-2014.geojson", function (data) {
+  var geoJsonLayer = L.geoJson(data, {
+    style: function (feature) {
+      var fillColor,
+        level = feature.properties.level2014;
+      if (level == "Very Low") fillColor = "#fff5cc";
+      else if (level == "Low") fillColor = "#ffdb94";
+      else if (level == "Moderate") fillColor = "#ffb84d";
+      else if (level == "High") fillColor = "#ff9933";
+      else if (level == "Very High") fillColor = "#ff7519";
+      else fillColor = "gray"; // no data
+      return {
+        'color': 'gray',
+        'weight': 2,
+        'opacity': 1,
+        'dashArray': 3,
+        'fillColor': fillColor,
+        'fillOpacity': 0.8
+      }
+    },
+    onEachFeature: function( feature, layer) {
+      var popupText = "Town: <b>" + feature.properties.town + "</b>" + "<br>Tract: <b>" + feature.properties.tract2010 + "</b>"
+         + "<br>Opportunity Level: <b>" + feature.properties.level2014 + "</b>";
+      layer.bindPopup(popupText);
+    }
+  }).addTo(map);
+});
+*/
+
+$.getJSON("data/outline.geojson", function (data) {
+  var districts = L.geoJson(data, {
+	  onEachFeature: function( feature, layer) {
+      var popupText = "ოლქი: <b>" + feature.properties.OBJECTID + "</b>" + "<br>სახელი: <b>" + feature.properties.NAMEKA + "</b>";
+      layer.bindPopup(popupText);
+    }
+  }).addTo(map);
+});
+
+$.getJSON("data/country.geojson", function (data) {
+  var country = L.geoJson(data, {
+	  onEachFeature: function( feature, layer) {
+      var popupText = "ოკუპირებული ტერიტორიები";
+      layer.bindPopup(popupText);
+    }
+  }).addTo(map);
+});
+
+console.log();
+// map.addLayer(districts);
+
+    </script>
+
+</body>
+
+</html>
