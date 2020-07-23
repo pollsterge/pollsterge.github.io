@@ -138,16 +138,30 @@
   </url>
   
   <url>
-    <loc>/en/about/</loc>
+    <loc>/en/electoral_system/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/about/"
+                href="/ka/electoral_system/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/about/"
+                href="/en/electoral_system/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/polls/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/polls/"
                 />
   </url>
   
@@ -190,20 +204,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/maps_18/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/maps_18/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/maps_18/"
                 />
   </url>
   
