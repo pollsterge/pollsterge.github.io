@@ -1,0 +1,363 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 13px;
+}
+</style>
+<table id="example">
+<thead>
+  <tr>
+    <th>გამოკითხვის ID</th>
+    <th>გამოკითხვის ავტორი / დამკვეთი</th>
+    <th>დასმული შეკითხვა</th>
+    <th>გამოკითხვის მეთოდი</th>
+    <th>შერჩევის ტიპი</th>
+    <th>ველის ჩატარების თარიღი</th>
+    <th>ველის ბოლო დღე</th>
+    <th>გამოკითხულთა რაოდენობა</th>
+    <th>საშუალო ცდომილება (%)</th>
+    <th>წყარო</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>2025</td>
+    <td>Edison Research / ტელეკომპანია ფორმულა</td>
+    <td>საპარლამენტო არჩევნები დღეს რომ ჩატარდეს, ვის მიცემდით ხმას?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>შემთხვევით შერჩევა</td>
+    <td>ივნისი-ივლისი 2020</td>
+    <td>13.ივლ.20</td>
+    <td>2000</td>
+    <td>2.1</td>
+    <td><a href="http://www.tabula.ge/ge/story/175059-edison-research-archevnebi-rom-dghes-tardebodes-ocneba-39-enm-16-evropelebi-5">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2024</td>
+    <td>CRRC COVID-19-ის მონოტირი</td>
+    <td>საქართველოში მრავალი პოლიტიკური პარტია არსებობს. რომელი პარტია დგას&nbsp;&nbsp;&nbsp;თქვენს შეხედულებებთან ყველაზე ახლოს?</td>
+    <td>სატელეფონო გამოკითხვა</td>
+    <td>სატელეფონო ნომრების რენდომულად გენერირება</td>
+    <td>მაისი 2020</td>
+    <td>31.მაი.20</td>
+    <td>1036</td>
+    <td>3</td>
+    <td><a href="https://caucasusbarometer.org/en/cv2020w5/PARTYSUPPM/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2023</td>
+    <td>GORBI/ტელეკომპანია იმედი</td>
+    <td>დღეს რომ ტარდებოდეს საპარლამენტო არჩევნები, რომელ პარტიას მისცემდით ხმას,&nbsp;&nbsp;&nbsp;თუკი არჩევანი შემდეგ პარტიებს შორის უნდა გაგეკეთებინათ? (რანდომიზაცია და&nbsp;&nbsp;&nbsp;წაუკითხეთ)</td>
+    <td>სატელეფონო გამოკითხვა</td>
+    <td>წინაკვლევების პანელის შედეგად შემთხვევითად შერჩეული რესპონდენტები</td>
+    <td>მაისი 2020</td>
+    <td>19.მაი.20</td>
+    <td>1090</td>
+    <td>3</td>
+    <td><a href="https://www.imedi.ge/ge/announcements/14/gorbis-mier-chatarebuli-kvlevis-metodologia">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2022</td>
+    <td>CRRC საქართველოს ომნიბუსი</td>
+    <td>საქართველოში მრავალი პოლიტიკური პარტია არსებობს. რომელი პარტია დგას&nbsp;&nbsp;&nbsp;თქვენს შეხედულებებთან ყველაზე ახლოს?</td>
+    <td>სატელეფონო გამოკითხვა</td>
+    <td>სატელეფონო ნომრების რენდომულად გენერირება</td>
+    <td>აპრილი 2020</td>
+    <td>07.აპრ.20</td>
+    <td>1351</td>
+    <td>2.67</td>
+    <td><a href="https://caucasusbarometer.org/ge/downloads/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2021</td>
+    <td>Edison Research / ტელეკომპანია ფორმულა</td>
+    <td>საპარლამენტო არჩევნები დღეს რომ ტარდებოდეს, ვის მიცემდით მას? (ალოკაციით)</td>
+    <td>სატელეფონო გამოკითხვა</td>
+    <td>(უცნობია)</td>
+    <td>თებერვალი 2020</td>
+    <td>28.თებ.20</td>
+    <td>2000</td>
+    <td>2</td>
+    <td><a href="https://formulanews.ge/News/22931">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>IPSOS / ტელეკომპანია მთავარი</td>
+    <td>ვის მისცემდით ხმას ხვალ რომ არჩევნები იყოს? (ალოკაცია)</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>შემთხვევითი შერჩევა</td>
+    <td>იანვარი-თებერვალი 2020</td>
+    <td>05.თებ.20</td>
+    <td>1500</td>
+    <td>2.5</td>
+    <td><a href="https://www.facebook.com/watch/?v=875844899502814">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2019</td>
+    <td>IPSOS / ტელეკომპანია ფორმულა</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას მისცემდით ხმას?</td>
+    <td>სატელეფონო გამოკითხვა</td>
+    <td>შემთხვევითი შერჩევა</td>
+    <td>უცნობია (სავარაუდოდ, 2020 წლის იანვარი)</td>
+    <td>უცნობია</td>
+    <td>უცნობია</td>
+    <td>უცნობია</td>
+    <td><a href="https://formulanews.ge/News/%E1%83%92%E1%83%90%E1%83%9B%E1%83%9D%E1%83%99%E1%83%98%E1%83%97%E1%83%AE%E1%83%A3%E1%83%9A%E1%83%97%E1%83%90_29_%E1%83%9E%E1%83%A0%E1%83%9D%E1%83%AA%E1%83%94%E1%83%9C%E1%83%A2%E1%83%98-%E1%83%A1_%E1%83%90%E1%83%A0_%E1%83%90%E1%83%A5%E1%83%95%E1%83%A1_%E1%83%92%E1%83%90%E1%83%93%E1%83%90%E1%83%AC%E1%83%A7%E1%83%95%E1%83%94%E1%83%A2%E1%83%98%E1%83%9A%E1%83%98%2C_%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%94%E1%83%9A_%E1%83%9E%E1%83%90%E1%83%A0%E1%83%A2%E1%83%98%E1%83%90%E1%83%A1_%E1%83%9B%E1%83%98%E1%83%A1%E1%83%AA%E1%83%94%E1%83%9B%E1%83%A1_%E1%83%AE%E1%83%9B%E1%83%90%E1%83%A1_-_IPSOS-%E1%83%98%E1%83%A1_%E1%83%99%E1%83%95%E1%83%9A%E1%83%94%E1%83%95%E1%83%90/20314">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2018</td>
+    <td>CRRC საქართველოს ომნიბუსი</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>იანვარი  2020</td>
+    <td>22.იან.20</td>
+    <td>996</td>
+    <td>6</td>
+    <td><a href="https://caucasusbarometer.org/ge/downloads/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2017</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>რომელი პარტია დგას თქვენს შეხედულებებთან ყველაზე ახლოს? - პირველი&nbsp;&nbsp;&nbsp;არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>ნოემბერი-დეკემბერი 2019</td>
+    <td>13.დეკ.19</td>
+    <td>2180</td>
+    <td>1.9</td>
+    <td><a href="https://caucasusbarometer.org/en/nn2019ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2016</td>
+    <td>Edison Research / ტელეკომპანია ფორმულა</td>
+    <td>საპარლამენტო არჩევნები დღეს რომ ტარდებოდეს, ვის მიცემდით მას?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>(უცნობია)</td>
+    <td>ნოემბერი 2019</td>
+    <td>23.ნოე.19</td>
+    <td>2000</td>
+    <td>2.2</td>
+    <td><a href="https://on.ge/story/46732-edison-research-%E1%83%98%E1%83%A1-%E1%83%99%E1%83%95%E1%83%9A%E1%83%94%E1%83%95%E1%83%90-%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9D%E1%83%AA%E1%83%9C%E1%83%94%E1%83%91%E1%83%90-26-%E1%83%9D%E1%83%9E%E1%83%9D%E1%83%96%E1%83%98%E1%83%AA%E1%83%98%E1%83%90-44">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>CRRC კავკასიის ბარომეტრი</td>
+    <td>საქართველოში მრავალი პოლიტიკური პარტია არსებობს. რომელი პარტია დგას&nbsp;&nbsp;&nbsp;თქვენს შეხედულებებთან ყველაზე ახლოს?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>ოქტომბერი-ნოემბერი 2019</td>
+    <td>04.ნოე.19</td>
+    <td>2317</td>
+    <td>2.5</td>
+    <td><a href="https://caucasusbarometer.org/en/cb2019ge/PARTYSUPP/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2014</td>
+    <td>IRI / IPM</td>
+    <td>ვის მისცემდით ხმას მომდევნო კვირას რომ საპრეზიდენტო არჩევნები ტარდებოდეს?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>მრავალსაფეხუროვანი ალბათური შერჩევა</td>
+    <td>სექტემბერი-ოქტომბერი 2019</td>
+    <td>14.ოქტ.19</td>
+    <td>1500</td>
+    <td>2.5</td>
+    <td><a href="https://www.iri.org/sites/default/files/wysiwyg/georgia_poll_11.18.2019_final.pdf">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2013</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას? გთხოვთ, მითხრათ თქვენი პირველი არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>ივლისი 2019</td>
+    <td>29.ივლ.19</td>
+    <td>2131</td>
+    <td>1.7</td>
+    <td><a href="https://caucasusbarometer.org/en/nj2019ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2012</td>
+    <td>IRI / IPM</td>
+    <td>ვის მისცემდით ხმას ხვალ რომ საპრეზიდენტო არჩევნები იყოს?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>მრავალსაფეხუროვანი ალბათური შერჩევა</td>
+    <td>მაისი-ივნისი 2019</td>
+    <td>11.ივნ.19</td>
+    <td>1500</td>
+    <td>2.5</td>
+    <td><a href="https://www.iri.org/sites/default/files/georgia_poll_2.pdf">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2011</td>
+    <td>IPSOS / ტელეკომპანია რუსთავი 2</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას მისცემდით ხმას?&nbsp;&nbsp;&nbsp;(ალოკაცია)</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>შემთხვევითი შერჩევა</td>
+    <td>მაისი 2019</td>
+    <td>14.მაი.19</td>
+    <td>1540</td>
+    <td>2.2</td>
+    <td><a href="http://rustavi2.ge/ka/news/133566">წყარო, </a></td>
+  </tr>
+  <tr>
+    <td>2010</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას? გთხოვთ, მითხრათ თქვენი პირველი არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>აპრილი 2019</td>
+    <td>15.აპრ.19</td>
+    <td>2927</td>
+    <td>2.3</td>
+    <td><a href="https://caucasusbarometer.org/en/na2019ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2009</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას? გთხოვთ, მითხრათ თქვენი პირველი არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>დეკემბერი 2018</td>
+    <td>20.დეკ.18</td>
+    <td>2205</td>
+    <td>2.1</td>
+    <td><a href="https://caucasusbarometer.org/ge/nd2018ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2008</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას? გთხოვთ, მითხრათ თქვენი პირველი არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>ივნისი-ივლისი 2018</td>
+    <td>08.ივლ.18</td>
+    <td>2409</td>
+    <td>1.9</td>
+    <td><a href="https://caucasusbarometer.org/ge/nj2018ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2007</td>
+    <td>IRI / IPM</td>
+    <td>ვის მისცემდით ხმას მომავალ კვირას &nbsp;&nbsp;&nbsp;საპარლამენტო არჩევნები რომ ტარდებოდეს და შემდეგი პარტიები ღებულობდნენ&nbsp;&nbsp;&nbsp;მონაწილეობას?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>მრავალსაფეხუროვანი ალბათური შერჩევა</td>
+    <td>აპრილი 2018</td>
+    <td>22.აპრ.18</td>
+    <td>1500</td>
+    <td>2.5</td>
+    <td><a href="https://www.iri.org/sites/default/files/2018-5-29_georgia_poll_presentation.pdf">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2006</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას? გთხოვთ, მითხრათ თქვენი პირველი არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>მარტი-აპრილი 2018</td>
+    <td>04.აპრ.18</td>
+    <td>2194</td>
+    <td>2.2</td>
+    <td><a href="https://caucasusbarometer.org/ge/nm2018ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2005</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>ხვალ რომ საპარლამენტო არჩევნები ტარდებოდეს, რომელ პარტიას/გაერთიანებას&nbsp;&nbsp;&nbsp;მისცემდით ხმას? გთხოვთ, მითხრათ თქვენი პირველი არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>დეკემბერი 2017</td>
+    <td>19.დეკ.17</td>
+    <td>2298</td>
+    <td>1.9</td>
+    <td><a href="https://caucasusbarometer.org/ge/nd2017ge/VOTPARL1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2004</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>რომელი პარტია დგას თქვენს შეხედულებებთან ყველაზე ახლოს? - პირველი&nbsp;&nbsp;&nbsp;არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>ივნისი-ივლისი 2017</td>
+    <td>09.ივლ.17</td>
+    <td>2261</td>
+    <td>2.2</td>
+    <td><a href="https://caucasusbarometer.org/ge/nj2017ge/PARTYSUPP1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2003</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>რომელი პარტია დგას თქვენს შეხედულებებთან ყველაზე ახლოს? - პირველი&nbsp;&nbsp;&nbsp;არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>აპრილი, 2017</td>
+    <td>28.აპრ.17</td>
+    <td>2493</td>
+    <td>2.7</td>
+    <td><a href="https://caucasusbarometer.org/en/na2017ge/PARTYSUPP1/">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2002</td>
+    <td>IRI / IPM</td>
+    <td>ვის მისცემდით ხმას მომავალ კვირას &nbsp;&nbsp;&nbsp;ადგილობრივი არჩევნები რომ ტარდებოდეს და შემდეგი პარტიები ღებულობდნენ&nbsp;&nbsp;&nbsp;მონაწილეობას?</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>მრავალსაფეხუროვანი ალბათური შერჩევა</td>
+    <td>თებერვალი-მარტი 2017</td>
+    <td>08.მარ.17</td>
+    <td>1501</td>
+    <td>2.5</td>
+    <td><a href="https://www.iri.org/sites/default/files/iri_poll_presentation_georgia_2017.03-general.pdf">წყარო</a></td>
+  </tr>
+  <tr>
+    <td>2001</td>
+    <td>CRRC საქართველო / NDI</td>
+    <td>რომელი პარტია დგას თქვენს შეხედულებებთან ყველაზე ახლოს? - პირველი&nbsp;&nbsp;&nbsp;არჩევანი</td>
+    <td>პირისპირი გამოკითხვა</td>
+    <td>სტრატიფიცირებული მრავალსაფეხურიანი კლასტერულ შერჩევა</td>
+    <td>ნოემბერი, 2016</td>
+    <td>04.დეკ.16</td>
+    <td>3141</td>
+    <td>1.8</td>
+    <td><a href="https://caucasusbarometer.org/en/nn2016ge/PARTYSUPP1/">წყარო</a></td>
+  </tr>
+</tbody>
+</table>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	responsive: true,
+        dom: 'Bfrtip',
+        columnDefs: [
+            {
+                targets: [1, 2,3, 5, 6, 7 ],
+                // className: 'noVis',
+				visible: false
+            }
+        ],
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ],
+    language: {
+        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
+    }
+    } );
+} );
+</script>
+</html>
