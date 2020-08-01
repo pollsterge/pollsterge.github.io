@@ -113,7 +113,8 @@ $.getJSON("data/outline.geojson", function (data) {
 	  popupText += (feature.properties.cand_EUROGEO) ? "<br>ევროპული საქართველო: <b>" + feature.properties.cand_EUROGEO : '';
 	  popupText += (feature.properties.cand_LAB) ? "<br>ლეიბორისტები: <b>" + feature.properties.cand_LAB : '';
 	  popupText += (feature.properties.cand_NEWGEORGIA) ? "<br>სტრატეგია აღმაშენებელი: <b>" + feature.properties.cand_NEWGEORGIA : '';
-;
+	  popupText += (feature.properties.cand_LELO) ? "<br>ლელო: <b>" + feature.properties.cand_LELO : '';
+	  popupText += (feature.properties.cand_OTHER) ? "<br>სხვა: <b>" + feature.properties.cand_OTHER : '';
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
