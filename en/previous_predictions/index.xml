@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Previous_predictions on Pollster.ge</title>
+    <link>/en/previous_predictions/</link>
+    <description>Recent content in Previous_predictions on Pollster.ge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="/en/previous_predictions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>July 13th</title>
+      <link>/en/previous_predictions/july_13th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/previous_predictions/july_13th/</guid>
+      <description>&lt;h2 id=&#34;predicted-party-vote-share-for-july-13th-2020&#34;&gt;Predicted party vote share for July 13th, 2020&lt;/h2&gt;
+&lt;p&gt;This forecast is based on the &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;weighted average method&lt;/a&gt;. Data come from &lt;a href=&#34;https://www.pollster.ge/en/polls/&#34;&gt;25 publicly available&lt;/a&gt; poll results. Proportions are calculated for  decided voters only.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/01_july_13/weighted_average_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;poll-numbers-for-four-major-political-parties-for-july-13th-2020&#34;&gt;Poll numbers for four major political parties for July 13th, 2020&lt;/h2&gt;
+&lt;p&gt;The chart below displays poll numbers for four major parties since late 2016. Only proportions for decided voters are displayed.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/01_july_13/dynamics_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;state-space-model-of-election-forecast-for-july-13th-2020&#34;&gt;State-space model of election forecast for July 13th, 2020&lt;/h2&gt;
+&lt;p&gt;The chart below shows results of 2,000 simulations based on publicly available poll numbers. Overall, median value of simulated vote share for GD is 50%, 20% for the UNM, 6% for European Georgia, and 4% for the Alliance of Patriots of Georgia. Considering low electoral threshold, all of the parties listed above have a decent chance of passing through.&lt;/p&gt;
+&lt;p&gt;Further analysis of simulations show that in the current situation, Georgian Dream has about 50% chance of winning the majority in proportional voting. The ruling party also has a very high chance (93%) of passing through the 40% closing threshold that will allow GD to single-handedly form the government. Current predictions show that the chance of obtaining constitutional majority for the Georgian Dream party only via proportional voting is marginal (&amp;lt;1%). Seemingly, the party will need to concentrate on majoritarian seats to guarantee full control of Georgia&amp;rsquo;s legislature.&lt;/p&gt;
+&lt;p&gt;What are the chances that the Georgian Dream might lose to its main rival, the United National Movement? Thus far, chances are negligible: there&amp;rsquo;s less than 1% chance of the United National Movement receiving more votes in proportional voting than the Georgian Dream.&lt;/p&gt;
+&lt;p&gt;However, important caveats exist: while distribution of predictions for other parties are quite steep, that is, concentrated around the median value, that for the Georgian Dream is relatively flat. This indicates to the fact that support for the ruling party is a bit more volatile and prone to fluctuations. While the pandemic response has definitely increased support for the Georgian Dream, a million dollar question would be whether the party will be able to hold up to election day.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/01_july_13/model_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The methodology behind predictions is available &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;here&lt;/a&gt;. Replication code and dataset used above is available via &lt;a href=&#34;https://github.com/pollsterge/predictions&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

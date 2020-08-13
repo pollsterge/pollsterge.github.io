@@ -180,6 +180,10 @@
   </url>
   
   <url>
+    <loc>/en/previous_predictions/july_13th/</loc>
+  </url>
+  
+  <url>
     <loc>/en/methods/</loc>
     <xhtml:link
                 rel="alternate"
@@ -190,6 +194,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/methods/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/previous_predictions/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/previous_predictions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/previous_predictions/"
                 />
   </url>
   

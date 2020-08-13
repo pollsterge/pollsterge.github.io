@@ -29,6 +29,41 @@
 </thead>
 <tbody>
   <tr>
+    <td>2028</td>
+    <td>Rustavi 2 / Survation</td>
+    <td>If there were parliamentary elections today who would you vote for among the parties listed?<td>
+    <td>?</td>
+    <td>?</td>
+    <td>August 2020</td>
+    <td>1.August.20</td>
+    <td>1200</td>
+    <td><a href="https://rustavi2.ge/ka/news/172689?fbclid=IwAR3CVe3rY-aWylq47_12Y2OStiS13rGhVcMnvXQ8liqPhjggMLT4THLOgBM">Source</a></td>
+  </tr>
+  <tr>
+    <td>2027</td>
+    <td>CRRC Omnibus</td>
+    <td>There are a number of political parties in Georgia. Which political party&nbsp;&nbsp;&nbsp;is closest to you?</td>
+    <td>Telephone survey</td>
+    <td>Random-Digit-Dial (RDD) sample</td>
+    <td>July 2020</td>
+    <td>16.July.20</td>
+    <td>1226</td>
+    <td>2.67</td>
+    <td><a href="https://caucasusbarometer.org/ge/downloads/">Source</a></td>
+  </tr>
+  <tr>
+    <td>2026</td>
+    <td>IRI/IPM</td>
+    <td>If parliamentary elections were held this coming Sunday, for which party would you vote? (First choice</td>
+    <td>Face to face survey</td>
+    <td>Random Sample</td>
+    <td>June 2020</td>
+    <td>2.Jul.20</td>
+    <td>1500</td>
+    <td>2.5</td>
+    <td><a href="https://www.iri.org/sites/default/files/iri_poll_presentation-georgia_june_2020_general-aug_4_corrections_1.pdf">Source</a></td>
+  </tr>
+  <tr>
     <td>2025</td>
     <td>Edison Research / Formula TV</td>
     <td>If Parliamenty elections were held today to whom would you vote?</td>
@@ -43,7 +78,7 @@
   <tr>
     <td>2024</td>
     <td>CRRC Georgia (CRRC COVID-19 Monitor survey)</td>
-    <td>There are a number of political parties in Georgia. Which political party&nbsp;&nbsp;&nbsp;is closest to you?</td>
+    <td>There are a number of political parties in Georgia. Which political party is closest to you?</td>
     <td>Telephone survey</td>
     <td>Random-Digit-Dial (RDD) sample</td>
     <td>May 2020</td>
@@ -343,7 +378,7 @@ $(document).ready(function() {
         dom: 'Bfrtip',
         columnDefs: [
             {
-                targets: [1, 2,3, 5, 6, 7 ],
+                targets: [2,3, 6, 7, 8 ],
                 // className: 'noVis',
 				visible: false
             }
@@ -353,10 +388,7 @@ $(document).ready(function() {
                 extend: 'colvis',
                 columns: ':not(.noVis)'
             }
-        ],
-    language: {
-        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
-    }
+        ]
     } );
 } );
 </script>
