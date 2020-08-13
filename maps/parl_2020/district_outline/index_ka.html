@@ -103,7 +103,7 @@
             maxZoom: 19
         }).addTo(map);
 
-$.getJSON("data/outline.geojson", function (data) {
+$.getJSON("data/outline_new.geojson", function (data) {
   var districts = L.geoJson(data, {
 	  onEachFeature: function(feature, layer) {
       var popupText = "";
@@ -114,7 +114,10 @@ $.getJSON("data/outline.geojson", function (data) {
 	  popupText += (feature.properties.cand_LAB) ? "<br>ლეიბორისტები: <b>" + feature.properties.cand_LAB : '';
 	  popupText += (feature.properties.cand_NEWGEORGIA) ? "<br>სტრატეგია აღმაშენებელი: <b>" + feature.properties.cand_NEWGEORGIA : '';
 	  popupText += (feature.properties.cand_LELO) ? "<br>ლელო: <b>" + feature.properties.cand_LELO : '';
-	  popupText += (feature.properties.cand_OTHER) ? "<br>სხვა: <b>" + feature.properties.cand_OTHER : '';
+	  popupText += (feature.properties.cand_GIRCHI) ? "<br>გირჩი: <b>" + feature.properties.cand_GIRCHI : '';
+	  popupText += (feature.properties.cand_MOKALAKEEBI) ? "<br>მოქალაქეები: <b>" + feature.properties.cand_MOKALAKEEBI : '';
+	  popupText += (feature.properties.cand_FOR_JUSTICE) ? "<br>სამართლიანობისთვის: <b>" + feature.properties.cand_FOR_JUSTICE : '';
+	  popupText += (feature.properties.cand_INDEPENDENT) ? "<br>დამოუკიდებელი კანდიდატი: <b>" + feature.properties.cand_INDEPENDENT : '';
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
