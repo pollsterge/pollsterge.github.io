@@ -103,7 +103,7 @@
             maxZoom: 19
         }).addTo(map);
 
-$.getJSON("data/outline_new.geojson", function (data) {
+$.getJSON("data/outline_new_en.geojson", function (data) {
   var districts = L.geoJson(data, {
 	  onEachFeature: function(feature, layer) {
       var popupText = "";
@@ -113,11 +113,11 @@ $.getJSON("data/outline_new.geojson", function (data) {
 	  popupText += (feature.properties.cand_EUROGEO) ? "<br>European Georgia: <b>" + feature.properties.cand_EUROGEO : '';
 	  popupText += (feature.properties.cand_LAB) ? "<br>Labor: <b>" + feature.properties.cand_LAB : '';
 	  popupText += (feature.properties.cand_NEWGEORGIA) ? "<br>Strategy Aghmashenebeli: <b>" + feature.properties.cand_NEWGEORGIA : '';
-	  popupText += (feature.properties.cand_LELO) ? "<br>Lelo: <b>" + feature.properties.cand_LELO : '';
-	  popupText += (feature.properties.cand_GIRCHI) ? "<br>Girchi: <b>" + feature.properties.cand_GIRCHI : '';
-	  popupText += (feature.properties.cand_MOKALAKEEBI) ? "<br>Mokalakeebi: <b>" + feature.properties.cand_MOKALAKEEBI : '';
-	  popupText += (feature.properties.cand_FOR_JUSTICE) ? "<br>For Justice: <b>" + feature.properties.cand_FOR_JUSTICE : '';
-	  popupText += (feature.properties.cand_INDEPENDENT) ? "<br>Independents: <b>" + feature.properties.cand_INDEPENDENT : '';
+	  popupText += (feature.properties.cand_Lelo) ? "<br>Lelo: <b>" + feature.properties.cand_Lelo : '';
+	  popupText += (feature.properties.cand_Girchi) ? "<br>Girchi: <b>" + feature.properties.cand_Girchi : '';
+	  popupText += (feature.properties.cand_Mokalakeebi) ? "<br>Mokalakeebi: <b>" + feature.properties.cand_Mokalakeebi : '';
+	  popupText += (feature.properties.cand_For_Justice) ? "<br>For Justice: <b>" + feature.properties.cand_For_Justice : '';
+	  popupText += (feature.properties.cand_Independent) ? "<br>Independents: <b>" + feature.properties.cand_Independent : '';
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
