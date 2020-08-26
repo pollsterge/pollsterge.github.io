@@ -113,11 +113,16 @@ $.getJSON("data/outline_new.geojson", function (data) {
 	  popupText += (feature.properties.cand_EUROGEO) ? "<br>ევროპული საქართველო: <b>" + feature.properties.cand_EUROGEO : '';
 	  popupText += (feature.properties.cand_LAB) ? "<br>ლეიბორისტები: <b>" + feature.properties.cand_LAB : '';
 	  popupText += (feature.properties.cand_NEWGEORGIA) ? "<br>სტრატეგია აღმაშენებელი: <b>" + feature.properties.cand_NEWGEORGIA : '';
-	  popupText += (feature.properties.cand_LELO) ? "<br>ლელო: <b>" + feature.properties.cand_LELO : '';
-	  popupText += (feature.properties.cand_GIRCHI) ? "<br>გირჩი: <b>" + feature.properties.cand_GIRCHI : '';
-	  popupText += (feature.properties.cand_MOKALAKEEBI) ? "<br>მოქალაქეები: <b>" + feature.properties.cand_MOKALAKEEBI : '';
-	  popupText += (feature.properties.cand_FOR_JUSTICE) ? "<br>სამართლიანობისთვის: <b>" + feature.properties.cand_FOR_JUSTICE : '';
-	  popupText += (feature.properties.cand_INDEPENDENT) ? "<br>დამოუკიდებელი კანდიდატი: <b>" + feature.properties.cand_INDEPENDENT : '';
+	  popupText += (feature.properties.cand_Lelo) ? "<br>ლელო: <b>" + feature.properties.cand_Lelo : '';
+	  popupText += (feature.properties.cand_Girchi) ? "<br>გირჩი: <b>" + feature.properties.cand_Girchi : '';
+	  popupText += (feature.properties.cand_Mokalakeebi) ? "<br>მოქალაქეები: <b>" + feature.properties.cand_Mokalakeebi : '';
+	  popupText += (feature.properties.cand_For_Justice) ? "<br>სამართლიანობისთვის: <b>" + feature.properties.cand_For_Justice : '';
+	  popupText += (feature.properties.cand_Solidarity) ? "<br>სოლიდარობის ალიანსი: <b>" + feature.properties.cand_Solidarity : '';
+	  popupText += (feature.properties.cand_Victorius_Georgia) ? "<br>გამარჯვებული საქართველო: <b>" + feature.properties.cand_Victorius_Georgia : '';
+	  popupText += (feature.properties.cand_Green_Party) ? "<br>მწვანეები: <b>" + feature.properties.cand_Green_Party : '';
+	  popupText += (feature.properties.cand_Georgian_March) ? "<br>ქართული მარში: <b>" + feature.properties.cand_Georgian_March : '';
+	  popupText += (feature.properties.cand_Progress_Freedom) ? "<br>პროგრესი და თავისუფლება: <b>" + feature.properties.cand_Progress_Freedom : '';
+	  popupText += (feature.properties.cand_Independent) ? "<br>დამოუკიდებელი კანდიდატი: <b>" + feature.properties.cand_Independent : '';
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
