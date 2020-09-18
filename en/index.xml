@@ -403,6 +403,31 @@ Another significant change in the new electoral code is associated with the prin
     </item>
     
     <item>
+      <title>About</title>
+      <link>/en/previous_predictions/august_17th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/previous_predictions/august_17th/</guid>
+      <description>&lt;h2 id=&#34;predicted-party-vote-share-for-august-17th-2020&#34;&gt;Predicted party vote share for August 17th, 2020&lt;/h2&gt;
+&lt;p&gt;This forecast is based on the &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;weighted average method&lt;/a&gt;. Data come from &lt;a href=&#34;https://www.pollster.ge/en/polls/&#34;&gt;28 publicly available&lt;/a&gt; poll results. Proportions are calculated for  decided voters only.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/02_august_17/weighted_average_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;poll-numbers-for-four-major-political-parties-for-august-17th-2020&#34;&gt;Poll numbers for four major political parties for August 17th, 2020&lt;/h2&gt;
+&lt;p&gt;The chart below displays poll numbers for four major parties since the late 2016 unti July 24th. Only proportions for decided voters are displayed.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/02_august_17/dynamics_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;state-space-model-of-election-forecast-for-august-17th-2020&#34;&gt;State-space model of election forecast for August 17th, 2020&lt;/h2&gt;
+&lt;p&gt;The chart below shows results of 2,000 simulations based on publicly available poll numbers. Overall, median value of simulated vote share for GD is 56%, 20% for the UNM, 8% for European Georgia, and 5% for the Alliance of Patriots of Georgia. Considering low electoral threshold, all of the parties listed above have a decent chance of passing through.&lt;/p&gt;
+&lt;p&gt;Further analysis of simulations show that in the current situation, Georgian Dream has about 52% chance of winning the majority in proportional voting. The ruling party also has a very high chance (95%) of passing through the 40% closing threshold that will allow GD to single-handedly form the government. Current predictions show that the chance of obtaining constitutional majority for the Georgian Dream party only via proportional voting is marginal (&amp;lt;1%). Seemingly, the party will need to concentrate on majoritarian seats to guarantee full control of Georgia&amp;rsquo;s legislature.&lt;/p&gt;
+&lt;p&gt;What are the chances that the Georgian Dream might lose to its main rival, the United National Movement? Predictions haven&amp;rsquo;t changed significantly from the last wave. There&amp;rsquo;s less than 0.2% chance of the United National Movement receiving more votes in proportional voting than the Georgian Dream.&lt;/p&gt;
+&lt;p&gt;However, important caveats exist: while distribution of predictions for other parties are quite steep, that is, concentrated around the median value, that for the Georgian Dream is relatively flat. This indicates to the fact that support for the ruling party is a bit more volatile and prone to fluctuations. While the pandemic response has definitely increased support for the Georgian Dream, a million dollar question would be whether the party will be able to hold up to election day.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/02_august_17/model_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;The methodology behind predictions is available &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;here&lt;/a&gt;. Replication code and dataset used above is available via &lt;a href=&#34;https://github.com/pollsterge/predictions&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Previous forecasts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/july_13th/&#34;&gt;July 13th&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>July 13th</title>
       <link>/en/previous_predictions/july_13th/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

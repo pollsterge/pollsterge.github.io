@@ -107,9 +107,9 @@ $.getJSON("data/outline_new_en.geojson", function (data) {
   var districts = L.geoJson(data, {
 	  onEachFeature: function(feature, layer) {
       var popupText = "";
-	  popupText += (feature.properties.OBJECTID) ? "District: <b>" + feature.properties.OBJECTID: "";
+	  popupText += (feature.properties.OBJECTID) ? "District: <b>" + feature.properties.cand_en_districtName: "";
 	  popupText += (feature.properties.cand_en_GD) ? "<br>Georgian Dream: <b>" + feature.properties.cand_en_GD : '';
-	  popupText += (feature.properties.cand_en_UNM) ? "<br>UNM: <b>" + feature.properties.cand_en_UNM : '';
+	  popupText += (feature.properties.cand_en_UNM) ? "<br>UNM/Might is in the Unity: <b>" + feature.properties.cand_en_UNM : '';
 	  popupText += (feature.properties.cand_en_EUROGEO) ? "<br>European Georgia: <b>" + feature.properties.cand_en_EUROGEO : '';
 	  popupText += (feature.properties.cand_en_LAB) ? "<br>Labor: <b>" + feature.properties.cand_en_LAB : '';
 	  popupText += (feature.properties.cand_en_NEWGEORGIA) ? "<br>Strategy Aghmashenebeli: <b>" + feature.properties.cand_en_NEWGEORGIA : '';
@@ -121,8 +121,10 @@ $.getJSON("data/outline_new_en.geojson", function (data) {
 	  popupText += (feature.properties.cand_en_Victorius_Georgia) ? "<br>Victorious Georgia: <b>" + feature.properties.cand_en_Victorius_Georgia : '';
 	  popupText += (feature.properties.cand_en_Green_Party) ? "<br>Greens: <b>" + feature.properties.cand_en_Green_Party : '';
 	  popupText += (feature.properties.cand_en_Georgian_March) ? "<br>Georgian March: <b>" + feature.properties.cand_en_Georgian_March : '';
-	  popupText += (feature.properties.cand_en_Progress_Freedom) ? "<br>Progress and Freedom: <b>" + feature.properties.cand_en_Progress_Freedom : '';
-	  popupText += (feature.properties.cand_en_Independent) ? "<br>Independents: <b>" + feature.properties.cand_en_Independent : '';
+	  popupText += (feature.properties.cand_en_Alliance_of_Patriots) ? "<br>Alliance of Patriots: <b>" + feature.properties.cand_en_Alliance_of_Patriots : '';
+	  popupText += (feature.properties.cand_en_Reformer) ? "<br>Reformer: <b>" + feature.properties.cand_en_Reformer : '';
+	  popupText += (feature.properties.cand_en_Free_Democrats) ? "<br>Free Democrats: <b>" + feature.properties.cand_en_Free_Democrats : '';
+	  popupText += (feature.properties.cand_en_Conservatives) ? "<br>Conservatives: <b>" + feature.properties.cand_en_Conservatives : '';
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
