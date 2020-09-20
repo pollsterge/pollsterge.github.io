@@ -107,7 +107,7 @@ $.getJSON("data/outline_new_en.geojson", function (data) {
   var districts = L.geoJson(data, {
 	  onEachFeature: function(feature, layer) {
       var popupText = "";
-	  popupText += (feature.properties.OBJECTID) ? "District: <b>" + feature.properties.cand_en_districtName: "";
+	  popupText += (feature.properties.OBJECTID) ? "<b>District " + (feature.properties.OBJECTID) + ": <b>" + feature.properties.cand_en_districtName: "";
 	  popupText += (feature.properties.cand_en_GD) ? "<br>Georgian Dream: <b>" + feature.properties.cand_en_GD : '';
 	  popupText += (feature.properties.cand_en_UNM) ? "<br>UNM/Might is in the Unity: <b>" + feature.properties.cand_en_UNM : '';
 	  popupText += (feature.properties.cand_en_EUROGEO) ? "<br>European Georgia: <b>" + feature.properties.cand_en_EUROGEO : '';
@@ -125,6 +125,7 @@ $.getJSON("data/outline_new_en.geojson", function (data) {
 	  popupText += (feature.properties.cand_en_Reformer) ? "<br>Reformer: <b>" + feature.properties.cand_en_Reformer : '';
 	  popupText += (feature.properties.cand_en_Free_Democrats) ? "<br>Free Democrats: <b>" + feature.properties.cand_en_Free_Democrats : '';
 	  popupText += (feature.properties.cand_en_Conservatives) ? "<br>Conservatives: <b>" + feature.properties.cand_en_Conservatives : '';
+	  popupText += (feature.properties.cand_en_Independent) ? "<br>Independent: <b>" + feature.properties.cand_en_Independent : '';
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
@@ -133,7 +134,7 @@ $.getJSON("data/outline_new_en.geojson", function (data) {
  $.getJSON("data/country.geojson", function (data) {
    var country = L.geoJson(data, {
  	  onEachFeature: function( feature, layer) {
-       var popupText = "ოკუპირებული ტერიტორიები";
+       var popupText = "Occupied territories";
        layer.bindPopup(popupText);
      }
    }).addTo(map);
