@@ -125,7 +125,10 @@ $.getJSON("data/outline_new_en.geojson", function (data) {
 	  popupText += (feature.properties.cand_en_Reformer) ? "<br>Reformer: <b>" + feature.properties.cand_en_Reformer : '';
 	  popupText += (feature.properties.cand_en_Free_Democrats) ? "<br>Free Democrats: <b>" + feature.properties.cand_en_Free_Democrats : '';
 	  popupText += (feature.properties.cand_en_Conservatives) ? "<br>Conservatives: <b>" + feature.properties.cand_en_Conservatives : '';
-	  popupText += (feature.properties.cand_en_Kartuli_Dasi) ? "<br>Kartuli Dasi: <b>" + feature.properties.cand_en_Kartuli_Dasi : '';
+	  popupText += (feature.properties.cand_en_Kartuli_Dasi) ? "<br>Kartuli Dasi: <b>" + feature.properties.cand_en_Kartuli_Dasi : '';	  popupText += (feature.properties.cand_en_Tribuna) ? "<br>Tribuna: <b>" + feature.properties.cand_en_Tribuna : '';
+	  popupText += (feature.properties.cand_en_Georgian_March) ? "<br>Georgian March: <b>" + feature.properties.cand_en_Georgian_March : '';
+	  popupText += (feature.properties.cand_en_Free_Georgia) ? "<br>Free Georgia: <b>" + feature.properties.cand_en_Free_Georgia : '';
+	  popupText += (feature.properties.cand_en_Social_Justice) ? "<br>Social Justice: <b>" + feature.properties.cand_en_Social_Justice : '';
 	  popupText += (feature.properties.cand_en_Independent) ? "<br>Independent: <b>" + feature.properties.cand_en_Independent : '';
       layer.bindPopup(popupText); 
     }

@@ -125,8 +125,10 @@ $.getJSON("data/outline_new.geojson", function (data) {
 	  popupText += (feature.properties.cand_Reformer) ? "<br>რეფორმერი: <b>" + feature.properties.cand_Reformer : '';
 	  popupText += (feature.properties.cand_Free_Democrats) ? "<br>თავისუფალი დემოკრატები: <b>" + feature.properties.cand_Free_Democrats : '';
 	  popupText += (feature.properties.cand_Conservatives) ? "<br>კონსერვატორები: <b>" + feature.properties.cand_Conservatives : '';
-      layer.bindPopup(popupText);
 	  popupText += (feature.properties.cand_Kartuli_Dasi) ? "<br>ქართული დასი: <b>" + feature.properties.cand_Kartuli_Dasi : '';
+	  popupText += (feature.properties.cand_Georgian_March) ? "<br>ქართული მარში: <b>" + feature.properties.cand_Georgian_March : '';
+	  popupText += (feature.properties.cand_Free_Georgia) ? "<br>თავისუფალი საქართველო: <b>" + feature.properties.cand_Free_Georgia : '';
+	  popupText += (feature.properties.cand_Social_Justice) ? "<br>სოციალური სამართლიანობისთვის: <b>" + feature.properties.cand_Social_Justice : '';
 	  popupText += (feature.properties.cand_Independent) ? "<br>დამოუკიდებელი კანდიდატი: <b>" + feature.properties.cand_Independent : '';
       layer.bindPopup(popupText); 
     }
