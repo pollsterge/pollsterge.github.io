@@ -103,33 +103,64 @@
             maxZoom: 19
         }).addTo(map);
 
-$.getJSON("data/outline_new.geojson", function (data) {
+$.getJSON("data/geo.geojson", function (data) {
   var districts = L.geoJson(data, {
 	  onEachFeature: function(feature, layer) {
       var popupText = "";
-	  popupText += (feature.properties.OBJECTID) ?  "<b> №" + (feature.properties.OBJECTID) + " "+ feature.properties.cand_districtName: "";
-	  popupText += (feature.properties.cand_GD) ? "<br>ქართული ოცნება: <b>" + feature.properties.cand_GD : '';
-	  popupText += (feature.properties.cand_UNM) ? "<br>ენმ/ძალა ერთობაშია: <b>" + feature.properties.cand_UNM : '';
-	  popupText += (feature.properties.cand_EUROGEO) ? "<br>ევროპული საქართველო: <b>" + feature.properties.cand_EUROGEO : '';
-	  popupText += (feature.properties.cand_LAB) ? "<br>ლეიბორისტები: <b>" + feature.properties.cand_LAB : '';
-	  popupText += (feature.properties.cand_NEWGEORGIA) ? "<br>სტრატეგია აღმაშენებელი: <b>" + feature.properties.cand_NEWGEORGIA : '';
-	  popupText += (feature.properties.cand_Lelo) ? "<br>ლელო: <b>" + feature.properties.cand_Lelo : '';
-	  popupText += (feature.properties.cand_Girchi) ? "<br>გირჩი: <b>" + feature.properties.cand_Girchi : '';
-	  popupText += (feature.properties.cand_Mokalakeebi) ? "<br>მოქალაქეები: <b>" + feature.properties.cand_Mokalakeebi : '';
-	  popupText += (feature.properties.cand_For_Justice) ? "<br>სამართლიანობისთვის: <b>" + feature.properties.cand_For_Justice : '';
-	  popupText += (feature.properties.cand_Solidarity) ? "<br>სოლიდარობის ალიანსი: <b>" + feature.properties.cand_Solidarity : '';
-	  popupText += (feature.properties.cand_Victorius_Georgia) ? "<br>გამარჯვებული საქართველო: <b>" + feature.properties.cand_Victorius_Georgia : '';
-	  popupText += (feature.properties.cand_Green_Party) ? "<br>მწვანეები: <b>" + feature.properties.cand_Green_Party : '';
-	  popupText += (feature.properties.cand_Georgian_March) ? "<br>ქართული მარში: <b>" + feature.properties.cand_Georgian_March : '';
-	  popupText += (feature.properties.cand_Alliance_of_Patriots) ? "<br>პატრიოტთა ალიანსი: <b>" + feature.properties.cand_Alliance_of_Patriots : '';
-	  popupText += (feature.properties.cand_Reformer) ? "<br>რეფორმერი: <b>" + feature.properties.cand_Reformer : '';
-	  popupText += (feature.properties.cand_Free_Democrats) ? "<br>თავისუფალი დემოკრატები: <b>" + feature.properties.cand_Free_Democrats : '';
-	  popupText += (feature.properties.cand_Conservatives) ? "<br>კონსერვატორები: <b>" + feature.properties.cand_Conservatives : '';
-	  popupText += (feature.properties.cand_Kartuli_Dasi) ? "<br>ქართული დასი: <b>" + feature.properties.cand_Kartuli_Dasi : '';
-	  popupText += (feature.properties.cand_Georgian_March) ? "<br>ქართული მარში: <b>" + feature.properties.cand_Georgian_March : '';
-	  popupText += (feature.properties.cand_Free_Georgia) ? "<br>თავისუფალი საქართველო: <b>" + feature.properties.cand_Free_Georgia : '';
-	  popupText += (feature.properties.cand_Social_Justice) ? "<br>სოციალური სამართლიანობისთვის: <b>" + feature.properties.cand_Social_Justice : '';
-	  popupText += (feature.properties.cand_Independent) ? "<br>დამოუკიდებელი კანდიდატი: <b>" + feature.properties.cand_Independent : '';
+	  popupText += (feature.properties.OBJECTID) ? "<b>ოლქი " + (feature.properties.OBJECTID) + ": <b>" + feature.properties.NAME_KA: "";
+popupText += (feature.properties.whites) ? '<br>(პარტია) თეთრები: <b>' + feature.properties.whites : '';
+popupText += (feature.properties.european_goergia) ? '<br>ბაქრაძე, უგულავა, ბოკერია - ევროპული საქართველო - მოძრაობა თავისუფლებისთვის: <b>' + feature.properties.european_goergia : '';
+ popupText += (feature.properties.democratic_movement) ? '<br>ნინო ბურჯანაძე - ერთიანი საქართველო- დემოკრატიული მოძრაობა: <b>' + feature.properties.democratic_movement : '';
+ popupText += (feature.properties.tribuna) ? '<br>დავით ჭიჭინაძე ტრიბუნა - ქდმ: <b>' + feature.properties.tribuna : '';
+ popupText += (feature.properties.unm) ? '<br>საარჩევნო ბლოკი ერთიანი ნაციონალური მოძრაობა - გაერთიანებული ოპოზიცია ძალა ერთობაშია: <b>' + feature.properties.unm : '';
+ popupText += (feature.properties.future_georgia) ? '<br>მომავალი საქართველო: <b>' + feature.properties.future_georgia : '';
+ popupText += (feature.properties.mechiauri) ? '<br>თამაზ მეჭიაური ერთიანი საქართველოსთვის: <b>' + feature.properties.mechiauri : '';
+ popupText += (feature.properties.apg) ? '<br>დავით თარხან-მოურავი, ირმა ინაშვილი - საქართველოს პატრიოტთა ალიანსი: <b>' + feature.properties.apg : '';
+ popupText += (feature.properties.greens) ? '<br>გაჩეჩილაძე - მწვანეთა პარტია: <b>' + feature.properties.greens : '';
+ popupText += (feature.properties.labor) ? '<br>შალვა ნათელაშვილი-საქართველოს ლეიბორისტული პარტია: <b>' + feature.properties.labor : '';
+ popupText += (feature.properties.workers) ? '<br>მშრომელთა სოციალისტური პარტია: <b>' + feature.properties.workers : '';
+ popupText += (feature.properties.reformer) ? '<br>რეფორმერი: <b>' + feature.properties.reformer : '';
+ popupText += (feature.properties.georgian_choice) ? '<br>ბეჟან გუნავა - ქართული არჩევანი: <b>' + feature.properties.georgian_choice : '';
+ popupText += (feature.properties.our_united_georgia) ? '<br>ჩვენი გაერთიანებული საქართველო: <b>' + feature.properties.our_united_georgia : '';
+ popupText += (feature.properties.victorious_georgia) ? '<br>ირაკლი ოქრუაშვილი - გამარჯვებული საქართველო: <b>' + feature.properties.victorious_georgia : '';
+ popupText += (feature.properties.alliance) ? '<br>მოქალაქეთა პოლიტიკური გაერთიანება ჩვენი საქართველო - სოლიდარობის ალიანსი: <b>' + feature.properties.alliance : '';
+ popupText += (feature.properties.georgia) ? '<br>საქართველო: <b>' + feature.properties.georgia : '';
+ popupText += (feature.properties.free_georgia) ? '<br>თავისუფალი საქართველო (კახა კუკავა, გიორგი წულაია): <b>' + feature.properties.free_georgia : '';
+ popupText += (feature.properties.new_force) ? '<br>ახალი ძალა: <b>' + feature.properties.new_force : '';
+ popupText += (feature.properties.citizens) ? '<br>ალეკო ელისაშვილი-მოქალაქეები: <b>' + feature.properties.citizens : '';
+ popupText += (feature.properties.free_democrats) ? '<br>თავისუფალი დემოკრატები: <b>' + feature.properties.free_democrats : '';
+ popupText += (feature.properties.justice) ? '<br>ეკა ბესელია - პ.პ. სამართლიანობისთვის: <b>' + feature.properties.justice : '';
+ popupText += (feature.properties.agmashenebeli) ? '<br>საარჩევნო ბლოკი გიორგი ვაშაძე-სტრატეგია აღმაშენებელი: <b>' + feature.properties.agmashenebeli : '';
+ popupText += (feature.properties.roots) ? '<br>ქართული ფესვები: <b>' + feature.properties.roots : '';
+ popupText += (feature.properties.change_georgia) ? '<br>შეცვალე საქართველო: <b>' + feature.properties.change_georgia : '';
+ popupText += (feature.properties.freedom_zviads_way) ? '<br>თავისუფლება-ზვიად გამსახურდიას გზა: <b>' + feature.properties.freedom_zviads_way : '';
+ popupText += (feature.properties.peoples_party) ? '<br>სახალხო პარტია: <b>' + feature.properties.peoples_party : '';
+ popupText += (feature.properties.girchi) ? '<br>გირჩი: <b>' + feature.properties.girchi : '';
+ popupText += (feature.properties.georgian_dream) ? '<br>ქართული ოცნება - დემოკრატიული საქართველო: <b>' + feature.properties.georgian_dream : '';
+ popupText += (feature.properties.zviads_way) ? '<br>ზვიადის გზა (ღმერთის, სიმართლისა და ქვეყნისათვის): <b>' + feature.properties.zviads_way : '';
+ popupText += (feature.properties.georgian_idea) ? '<br>ლევან ჩაჩუა, გურამ ფალავანდიშვილი - ქართული იდეა: <b>' + feature.properties.georgian_idea : '';
+ popupText += (feature.properties.national_democrats) ? '<br>ეროვნულ დემოკრატიული მოძრაობა: <b>' + feature.properties.national_democrats : '';
+ popupText += (feature.properties.conservatives) ? '<br>ზვიად ძიძიგური - საქართველოს კონსერვატიული პარტია: <b>' + feature.properties.conservatives : '';
+ popupText += (feature.properties.georgian_troupe) ? '<br>ჯონდო ბაღათურია - ქართული დასი: <b>' + feature.properties.georgian_troupe : '';
+ popupText += (feature.properties.progressive_georgia) ? '<br>პროგრესული საქართველო: <b>' + feature.properties.progressive_georgia : '';
+ popupText += (feature.properties.veterans) ? '<br>საქართველოს ძალოვან ვეტერანთა და პატრიოტთა პოლიტიკური მოძრაობა: <b>' + feature.properties.veterans : '';
+ popupText += (feature.properties.euroatlantic_vector) ? '<br>სერგო ჯავახიძე-ევროატლანტიკური ვექტორი: <b>' + feature.properties.euroatlantic_vector : '';
+ popupText += (feature.properties.traditionalists) ? '<br>ტრადიციონალისტები: <b>' + feature.properties.traditionalists : '';
+ popupText += (feature.properties.georgian_march) ? '<br>ქართული მარში-ეროვნული მოძრაობა: <b>' + feature.properties.georgian_march : '';
+ popupText += (feature.properties.lelo) ? '<br>ლელო - მამუკა ხაზარაძე: <b>' + feature.properties.lelo : '';
+ popupText += (feature.properties.development_party) ? '<br>საქართველოს განვითარების პარტია: <b>' + feature.properties.development_party : '';
+ popupText += (feature.properties.independent_1) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_1 : '';
+ popupText += (feature.properties.independent_2) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_2 : '';
+ popupText += (feature.properties.independent_3) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_3 : '';
+ popupText += (feature.properties.independent_4) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_4 : '';
+ popupText += (feature.properties.independent_5) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_5 : '';
+ popupText += (feature.properties.independent_6) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_6 : '';
+ popupText += (feature.properties.independent_7) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_7 : '';
+ popupText += (feature.properties.independent_8) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_8 : '';
+ popupText += (feature.properties.independent_9) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_9 : '';
+ popupText += (feature.properties.independent_10) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_10 : '';
+ popupText += (feature.properties.independent_11) ? '<br>დამოუკიდებელი კანდიდატი: <b>' + feature.properties.independent_11 : '';
+
       layer.bindPopup(popupText); 
     }
   }).addTo(map);

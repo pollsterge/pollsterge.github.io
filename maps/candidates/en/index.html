@@ -1,0 +1,3514 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 13px;
+}
+</style>
+<table id ="example">
+<thead>
+  <tr>
+    <th>District&nbsp;&nbsp;&nbsp;code</th>
+    <th>District name</th>
+    <th>Party code</th>
+    <th>Endorsed by</th>
+    <th>Candidate</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Shalva Shavgulidze</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Koba Amirkhanashvili</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>6</td>
+    <td>Future Georgia</td>
+    <td>Maia Liparteliani</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Malkhaz Topuria</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Teimuraz Tsagareishvili</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Ani Japaridze</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Jaba Jishkariani</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Besiki Adamia</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Irakli Jalaghonia</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Natalia Kamoza</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Beka Odisharia</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Ia Rcheulishvili</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>49</td>
+    <td>Jondo Baghaturia - Georgian Troupe</td>
+    <td>Maia Siradze</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Natalia Papashvili</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>52</td>
+    <td>Sergo Javakhidze- Euroatlantic Vector</td>
+    <td>Lasha Bregvadze</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Goga Mgaloblishvili</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mtatsminda-Krtsanisi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Saba Buadze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Elene Khoshtaria</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Levani Chkheidze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>6</td>
+    <td>Future Georgia</td>
+    <td>Roin Liparteliani</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Nana Devdariani</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Giorgi Gachechiladze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Maia Kukava</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Megi Aghapishvili</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Beka Natsvlishvili</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Mamuka Melikishvili</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Kakha Kukava</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Konstantine Bukurauli</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Nino Kareli</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Nodar Turdzeladze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Gega Khvedelidze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Khatuna Saginashvili</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>49</td>
+    <td>Jondo Baghaturia - Georgian Troupe</td>
+    <td>Jondo Baghaturia</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Davit Dadiani</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Nana Chitelashvili</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>53</td>
+    <td>Traditionalists</td>
+    <td>Irakli Matsavariani</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Guram Sagharadze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Levani Koberidze</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>60</td>
+    <td>Development Party of Georgia</td>
+    <td>Tengiz Tkeshelashvili</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Vake</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Bidzina Gegidze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Zurab Nizharadze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>6</td>
+    <td>Future Georgia</td>
+    <td>Irakli Avalishvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Kakhaber Dzagania</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Tamaz Inchkirveli</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>11</td>
+    <td>Socialist Party of Workers</td>
+    <td>Merab Khantadze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Mikheil Kokhreidze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Paata Devsurashvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>17</td>
+    <td>Irakli Okruashvili-Victorious Georgia</td>
+    <td>Irakli Okruashvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Levan Gogichaishvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Giorgi Liluashvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Roini Khijakadze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Aleksandre Gakharia</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Aleksandre Elisashvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>25</td>
+    <td>Free Democrats</td>
+    <td>Vitali Daraselia</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>27</td>
+    <td>Electoral Bloc Giorgi Vashadze - Strategy Aghmashenebeli</td>
+    <td>Tamar Charkviani</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Iana Kamoza</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Davit Sergeenko</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Anzor Sakandelidze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>45</td>
+    <td>National Democratic Movement</td>
+    <td>Vakhtang Gvazava</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Nikoloz Leluashvili</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Zaza Neparidze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Mikheil Tsavtsanidze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Badri Japaridze</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Saburtalo</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Tamari Makashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>1</td>
+    <td>Whites</td>
+    <td>Jumber Bolghashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Davit Tsitsinadze</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Khatia Dekanoidze</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Badri Manizhashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Giorgi Avazashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Kakha Nadiradze</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Gocha Shoshiashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Teimurazi Mtsedlishvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>25</td>
+    <td>Free Democrats</td>
+    <td>Eduardi Eloshvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>27</td>
+    <td>Electoral Bloc Giorgi Vashadze - Strategy Aghmashenebeli</td>
+    <td>Giorgi Vashadze</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Sopio Dilebashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Davit Chigogidze</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Kakha Kakhishvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Ilia Khmaladze</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Noe Gogiashvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Aleksandre Chargeishvili</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Isani</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Lana Galdava</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Vazha Zhvania</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Levan Khabeishvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Guram Nikolaishvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Manana Botsorishvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Bezhan Gunava</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Aleksandre Rizhamadze</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Gocha Kharauli</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Lali Peradze</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>26</td>
+    <td>Eka Beselia - For Justice</td>
+    <td>Iosebi Darsavelidze</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Nugzari Keleptrishvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Giorgi Khositashvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>32</td>
+    <td>People's Party</td>
+    <td>Ilia Matsarashvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Sozar Subari</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Guram Palavandishvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Kakhaber Mumladze</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Irakli Shikhiashvili</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Samgori</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Pikria Chikhradze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Mikheil Kavtaradze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>6</td>
+    <td>Future Georgia</td>
+    <td>Davit Khizanishvili</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Archil Benidze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Tamar Tsitsinadze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Davit Shalutashvili</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Manana Mosulishvili</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>15</td>
+    <td>Our United Georgia</td>
+    <td>Davit Akhmeteli</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Gedevan Popkhadze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Giorgi Pitskhelauri</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Tengiz Omanidze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Giga Gigauri</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Giorgi Otarashvili</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Otar Baghaturia</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>36</td>
+    <td>Girchi</td>
+    <td>Zurab Girchi Japaridze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Giorgi Volski</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>49</td>
+    <td>Jondo Baghaturia - Georgian Troupe</td>
+    <td>Davit Osepashvili</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Tsira Javakhishvili</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Levan Samushia</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Ana Dolidze</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>62</td>
+    <td>Independent candidate</td>
+    <td>Giorgi Kajaia</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Didube-Chughureti</td>
+    <td>63</td>
+    <td>Independent candidate</td>
+    <td>Dimitri Lortkipanidze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Lia Mukhashavria</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Irma Inashvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Guram Nikoleishvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Shalva Natelashvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>11</td>
+    <td>Socialist Party of Workers</td>
+    <td>Gia Nemsadze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Zviadi Tavadze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Lali Maisuradze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Guladi Kruashvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Aleksandre Bardadze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Darejan Gagnidze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Mikheil Kavelashvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Paata Gogshelidze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>49</td>
+    <td>Jondo Baghaturia - Georgian Troupe</td>
+    <td>Mariami Suladze</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Gaiozi Charkviani</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Davit Gogitashvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Giorgi Gigauri</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Nikoloz Cherkezishvili</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Nadzaladevi</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Irakli Gujabidze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Nikanori Melia</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>7</td>
+    <td>Tamaz Mechiauri for United Georgia</td>
+    <td>Romani Palelashvili</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Merab Tsikashvili</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Merab Sharabidze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Khatia Kobalia</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Lasha Giorgadze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Goderdzi Lomtatidze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Shota Matsarashvili</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>26</td>
+    <td>Eka Beselia - For Justice</td>
+    <td>Nugzar Lomishvili</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Salome Megrelishvili</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Levan Kobiashvili</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Aleksandre Razmadze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Grigoli Benidze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Kakhaber Kalashovi</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Zviad Tomaradze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Kakhaber Kobakhidze</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Gldani</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Gigla Mikautadze</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Giorgi Ghviniashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Ivane Datuashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Levan Bezhashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>6</td>
+    <td>Future Georgia</td>
+    <td>Vakhushti Kizikurashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>7</td>
+    <td>Tamaz Mechiauri for United Georgia</td>
+    <td>Nugzar Tsiaberashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Soslan Garsevanishvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Davit Tskhvariashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>11</td>
+    <td>Socialist Party of Workers</td>
+    <td>Amiran Luashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Elene Kurtiashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Tamar Pkhovelishvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Malkhaz Pilauri</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>25</td>
+    <td>Free Democrats</td>
+    <td>Daviti Tsuniashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>28</td>
+    <td>Georgian Roots</td>
+    <td>Ia Goderdzishvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Irakli Kokilashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Davit Songhulashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Giorgi Makharashvili</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Aleksi Kobaidze</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Aleksi Arabuli</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Gurjaani-Sagarejo-Sighnaghi-Dedoplistskaro</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Ekaterine Kvlividze</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Zurab Tsiaberashvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Giorgi Botkoveli</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Ioseb Parchikanashvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Nikoloz Vardoshvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Giorgi Javakhishvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Erekle Mumladze</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Lali Bunturi</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Maia Chereteli</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Mikheil Janezashvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>28</td>
+    <td>Georgian Roots</td>
+    <td>Giorgi Sulkhanishvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Zizi Gagnidze</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Irakli Kadagishvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Aleksandre Palavandishvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>49</td>
+    <td>Jondo Baghaturia - Georgian Troupe</td>
+    <td>Leila Kharaishvili</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Vladimeri Gurjidze</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Emzari Kvariani</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Tengiz Ketelauri</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Telavi-Akhmeta-Kvareli-Lagodekhi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Irakli Talakhadze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>1</td>
+    <td>Whites</td>
+    <td>Luara Nizharadze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Irma Nadirashvili</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Davit Kirkitadze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Paata Jibladze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Mikheil Kumsishvili</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Shorena Mamalashvili</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Ilia Lobzhanidze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Giorgi Maisuradze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Lasha Matsarashvili</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>28</td>
+    <td>Georgian Roots</td>
+    <td>Besik Chubinidze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Ekaterine Okrotsvaridze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Malkhazi Gorgaslidze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>36</td>
+    <td>Girchi</td>
+    <td>Vakhtangi Megrelishvili</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Nino Latsabidze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Zaza Margvelani</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Aleksandre Kobaidze</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Davit Suarishvili</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Grigol Gegelia</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Rustavi</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Gela Nakashidze</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Akmamed Imamkulievi</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Ashot Muradiani</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Azer Suleimanovi</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Makhir Iusubovi</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Ali Badirovi</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Tamar Tsonishvili</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Giulsapa Aivazova</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Natalia Gelazonia</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Avtandil Okrotsvaridze</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Zaur Dargali</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Olegi Devadze</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Gajar Guseinovi</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Ispandiar Karimovi</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Marneuli-Gardabani</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Murad Muradovi</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Kakhaber Okriashvili</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Maia Tsabutashvili</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Temur Chiklauri</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Giorgi Shavreshiani</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Amiran Korti</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Viktor Kusiani</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Darejan Petriashvili</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>25</td>
+    <td>Free Democrats</td>
+    <td>Guram Padarashvili</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Ketevan Kandashvili</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Gogi Meshveliani</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Robert Gvarliani</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Mamuka Chokuri</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Bolnisi-Dmanisi-Tetritskaro-Tsalka</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Giorgi Tselidze</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Vazha Chokheli</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Tsezari Chocheli</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>7</td>
+    <td>Tamaz Mechiauri for United Georgia</td>
+    <td>Tamaz Metsiauri</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Ioseb Shatberashvili</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Beka Natelashvili</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Bakuri Buchukuri</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Deniza Sumbadze</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Giorgi Abzhandadze</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>25</td>
+    <td>Free Democrats</td>
+    <td>Vakhtang Martoleki</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>26</td>
+    <td>Eka Beselia - For Justice</td>
+    <td>Eka Beselia</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Vakhtang Imerlishvili</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Shalva Kereselidze</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Badri Davituri</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Giorgi Lapanashvili</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Mtskheta-Mtianeti</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Malkhaz Vakhtangashvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Levan Tarkhnishvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Badri Basishvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Koba Mazanashvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Lasha Chkhartishvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>17</td>
+    <td>Irakli Okruashvili-Victorious Georgia</td>
+    <td>Irakli Okruashvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Emzari Sabanadze</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Iosebi Vardanidze</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Nana Aghordzineba</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Mariami Khorguashvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Zaza Mezvrishvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>32</td>
+    <td>People's Party</td>
+    <td>Besik Bogveli</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Giorgi Khojevanishvili</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Aleksandre Vashakmadze</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Khashuri-Kareli</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Papuna Koberidze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>3</td>
+    <td>Nino Burjanadze - United Georgia-Democratic Movememnt</td>
+    <td>Aleksi Chkhikvadze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Nato Chkheidze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>7</td>
+    <td>Tamaz Mechiauri for United Georgia</td>
+    <td>Tamaz Chaduneli</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Elibo Paturashvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>17</td>
+    <td>Irakli Okruashvili-Victorious Georgia</td>
+    <td>Guram Chalagashvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Besik Buturishvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Irina Tsaava</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Khatuna Gelashvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Merab Zurabashvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Paata Shubitidze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>36</td>
+    <td>Girchi</td>
+    <td>Nika Mosiashvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Zaal Dugladze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Levani Kveladze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>45</td>
+    <td>National Democratic Movement</td>
+    <td>Dimitri Ghonghadze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Rati Suladze</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Zviad Gelashvili</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Gori-Kaspi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Kakha Kozhoridze</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Zurabi Chilingarashvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Gela Kvaratskhelia</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Vazha Chitashvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Davit Gogichaishvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Giorgi Chitauri</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Mariza Jikia</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Besarion Popkhadze</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Ramazi Gelashvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Goderdzi Kublashvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Mariami Tsrelashvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Zurab Khutsishvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Anton Obolashvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Olegi Sandroshvili</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Samtskhe</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Izolda Lomidze</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Arsen Karapetian</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Melik Raisian</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Artashes Hakobian</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Diana Arutunian</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Mikheili Shioshvili</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Amiran Tsaghalidze</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Elza Grigoriani</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Samvel Manukian</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Javakheti</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Enzel Mkoiani</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>1</td>
+    <td>Whites</td>
+    <td>Iuri Belashvili</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Gocha Gurguchiani</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Dilar Khabuliani</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Erekle Saghliani</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Giorgi Zurabiani</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Paata Matsaberidze</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Maria Arsenashvili</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Gocha Enukidze</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Mountains of Western Georgia</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Soso Liparteliani</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Giorgi Chereteli</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Kakha Gechadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>7</td>
+    <td>Tamaz Mechiauri for United Georgia</td>
+    <td>Gela Chivadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Otar Shaorshadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Samsoni Gugava</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>11</td>
+    <td>Socialist Party of Workers</td>
+    <td>Nodar Ebanoidze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Temur Gogsadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Davit Shalamberidze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Lasha Liluashvili</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Murman Nebieridze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Giorgi Gvenetadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Davit Giorgadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Merab Giorgobiani</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Bezhan Chakadze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Giorgi Kuchishvili</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Nino Meparishvili</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Giga Gabritsidze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Anzori Porchkhidze</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Okriba</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Ana Bibilashvili</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Sergo Ratiani</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Giorgi Kapanadze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Giorgi Kasradze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Roin Gelashvili</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Nino Bregvadze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Giorgi Vatsaradze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Rostom Tsartsidze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Aleksandre Gagnidze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Paata Kvizhinadze</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Zina Gvelesiani</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Upper Imereti</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Ani Mirotadze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Akaki Bobokhidze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Nana Zhorzholiani</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Irakli Kobrava</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Iosebi Chikhladze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Aleksandre Chikovani</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Maka Grigolia</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Giorgi Chulaia</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Indiko Berdzenadze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Manana Kheladze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Irakli Gagnidze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Givi Tsitsinadze</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Zurab Meskhi</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Koba Dzidziguri</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Nana Tsaguria</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Lower Imereti</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Tornike Artkmeladze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>1</td>
+    <td>Whites</td>
+    <td>Teimuraz Shashiashvili</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Otari Kakhidze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Lasha Arsenidze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Grigol Vashadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Nona Asatiani</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Sopio Imedadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Melano Shavgulidze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Tornike Marjanishvili</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Aleksi Gejadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Elguja Khishtovani</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Nika Kurtsikidze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Ioseb Kentsadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>28</td>
+    <td>Georgian Roots</td>
+    <td>Natela Jimsheleishvili</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Tamari Jintsveladze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>31</td>
+    <td>Freedom-Zviad's Way</td>
+    <td>Dimitri Khmaladze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Zaza Lominadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Ramini Abesadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Tea Ergemlidze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Irina Saghinadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Ermile Nemsadze</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Ana Natsvlishvili</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Kutaisi</td>
+    <td>60</td>
+    <td>Development Party of Georgia</td>
+    <td>Giorgi Pataridze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Khatuna Gogorishvili</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Manuchar Kvirkelia</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Shota Gogiberidze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Davit Mamaladze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Nino Shechiruli-gobroni</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Otar Kerkadze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>26</td>
+    <td>Eka Beselia - For Justice</td>
+    <td>Nino Oragvelidze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Maka Mgaloblishvili</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>36</td>
+    <td>Girchi</td>
+    <td>Vakhtang Zenaishvili</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Vasil Chigogidze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Lasha Khetsuriani</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Ramaz Zoidze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Giorgi Sioridze</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Guria</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Gocha Dzimistarishvili</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>62</td>
+    <td>Independent candidate</td>
+    <td>Apoloni Garuchava</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Lela Keburia</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Roland Pipia</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Viktor Tsaava</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Mamuka Khorava</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Nino Gulua</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Gocha Bakhia</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Nodari Gagnidze</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Aleksandre Mocherelia</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Roin Natskebia</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Kakhaberi Topuridze</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Highland Samegrelo</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Tamari Belkania</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Giorgi Ugulava</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Vazha Kitia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Malkhaz Jalaghonia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Otar Tsitanava</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Jambul Natskebia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Sopio Danelia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Zurab Jinjolava</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Zviad Vekua</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Nino Kukhashvili</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Irakli Chikovani</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>43</td>
+    <td>Zviads's Way (For God, Truth, Country)</td>
+    <td>Ramaz Chachibaia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Davit Ardia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Giorgi Morgoshia</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Giorgi Gabedava</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Zugdidi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Aleksandre Akhvlediani</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Giorgi Bokeria</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Murtaz Zodelava</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Teimurazi Pachulia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Levan Martiashvili</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Irakli Beraia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Davit Davitaia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Tamar Pachulia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Mzia Tamazashvili</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>36</td>
+    <td>Girchi</td>
+    <td>Borisi Kurua</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Irakli Khakhubia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Giorgi Gakhokidze</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Teimurazi Churchumia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Zaali Davitaia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Giorgi Baramia</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Lowland Samegrelo</td>
+    <td>61</td>
+    <td>Independent candidate</td>
+    <td>Dato Sarsania</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Armaz Akhvlediani</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Levan Varshalomidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Zaur Gabaidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Ramaz Adadze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Tariel Kalandarishvili</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>13</td>
+    <td>Reformer</td>
+    <td>Jeiran Okropiridze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Madona Shainidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>17</td>
+    <td>Irakli Okruashvili-Victorious Georgia</td>
+    <td>Iza Surmanidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Mariam Jashi</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Zurabi Jorbenadze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Roman Jikia</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>23</td>
+    <td>New Force</td>
+    <td>Lazare Zakariadze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Genri Dolidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>28</td>
+    <td>Georgian Roots</td>
+    <td>Vakhtang Kakhidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Irakli Koreli</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>36</td>
+    <td>Girchi</td>
+    <td>Iago Khvichia</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Resan Kontselidze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Tariel Makharadze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>45</td>
+    <td>National Democratic Movement</td>
+    <td>Ramaz Pevadze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>47</td>
+    <td>Zviad Dzidziguri - Conservative Party of Georgia</td>
+    <td>Natalia Dzidziguri</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Temur Makharadze</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Batumi</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Irakli Kupradze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Irine Apkhazava</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>3</td>
+    <td>Nino Burjanadze - United Georgia-Democratic Movememnt</td>
+    <td>Khvicha Gamarjobadze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Bondo Tedoradze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Amiran Takidze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>10</td>
+    <td>Shalva Natelashvili-Labor Party of Georgia</td>
+    <td>Mirian Beradze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Natia Shakarishvili</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Zviad Kvatsantiradze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Aleksi Bakholdini</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Irma Okropiridze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Nana Kokilashvili</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Zaal Mikeladze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Davit Tsenteradze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>50</td>
+    <td>Progressive Georgia</td>
+    <td>Laura Takidze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>51</td>
+    <td>Political Movement of Veterans and Patriots</td>
+    <td>Jumber Ananidze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Tengiz Japaridze</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Kobuleti</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Paata Tsivadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>1</td>
+    <td>Whites</td>
+    <td>Zurab Khimshiashvili</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>2</td>
+    <td>Bakradze-Ugulava-Bokeria - European Georgia-Movement for&nbsp;&nbsp;&nbsp;Freedolm</td>
+    <td>Tariel Nakaidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>4</td>
+    <td>Davit Chichinadze Tribuna - CDM</td>
+    <td>Zviad Kvirikadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>5</td>
+    <td>United National Movement - United Opposition</td>
+    <td>Misha Bolkvadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>6</td>
+    <td>Future Georgia</td>
+    <td>Nukri Basiladze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>8</td>
+    <td>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots&nbsp;&nbsp;&nbsp;of Georgia</td>
+    <td>Zorbeg Beridze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>9</td>
+    <td>Gachechiladze-Green Party</td>
+    <td>Nino Bolkvadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>14</td>
+    <td>Bezhan Gunava-Georgian Choice</td>
+    <td>Badri Shainidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>17</td>
+    <td>Irakli Okruashvili-Victorious Georgia</td>
+    <td>Otar Shainidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>19</td>
+    <td>Our Georgia Solidarity Alliance</td>
+    <td>Amiran Malakmadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>20</td>
+    <td>Georgia</td>
+    <td>Ketino Gejadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>21</td>
+    <td>Free Georgia (Kakha Kukava, Giorgi Tsulaia)</td>
+    <td>Dali Takidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>24</td>
+    <td>Aleko Elisashvili-Citizens</td>
+    <td>Giorgi Gabaidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>28</td>
+    <td>Georgian Roots</td>
+    <td>Zurab Tsintskiladze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>30</td>
+    <td>Change Georgia</td>
+    <td>Ekaterine Iarghanashvili</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>41</td>
+    <td>Georgian Dream-Democratic Georgia</td>
+    <td>Anzor Bolkvadze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>44</td>
+    <td>Levan Chachua, Guram Palavandishvili - Georgian Idea</td>
+    <td>Guram Gogitidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>55</td>
+    <td>Georgian March-National Movement</td>
+    <td>Nabi Dolidze</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Highland Adjara</td>
+    <td>56</td>
+    <td>Lelo-Mamuka Khazaradze</td>
+    <td>Jambul Khozrevanidze</td>
+  </tr>
+</tbody>
+</table>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	"order": [[ 0, "asc" ]],
+	responsive: true,
+        dom: 'Bfrtip',
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ]
+    } );
+} );
+</script>
+</html>

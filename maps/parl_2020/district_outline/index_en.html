@@ -23,7 +23,7 @@
         }
 	.info {
 		padding: 6px 8px;
-		font: 14px/16px Arial, Helvetica, sans-serif;
+		font: 12px/16px Arial, Helvetica, sans-serif;
 		background: white;
 		background: rgba(255,255,255,0.8);
 		box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -103,33 +103,64 @@
             maxZoom: 19
         }).addTo(map);
 
-$.getJSON("data/outline_new_en.geojson", function (data) {
+$.getJSON("data/eng.geojson", function (data) {
   var districts = L.geoJson(data, {
 	  onEachFeature: function(feature, layer) {
       var popupText = "";
-	  popupText += (feature.properties.OBJECTID) ? "<b>District " + (feature.properties.OBJECTID) + ": <b>" + feature.properties.cand_en_districtName: "";
-	  popupText += (feature.properties.cand_en_GD) ? "<br>Georgian Dream: <b>" + feature.properties.cand_en_GD : '';
-	  popupText += (feature.properties.cand_en_UNM) ? "<br>UNM/Might is in the Unity: <b>" + feature.properties.cand_en_UNM : '';
-	  popupText += (feature.properties.cand_en_EUROGEO) ? "<br>European Georgia: <b>" + feature.properties.cand_en_EUROGEO : '';
-	  popupText += (feature.properties.cand_en_LAB) ? "<br>Labor: <b>" + feature.properties.cand_en_LAB : '';
-	  popupText += (feature.properties.cand_en_NEWGEORGIA) ? "<br>Strategy Aghmashenebeli: <b>" + feature.properties.cand_en_NEWGEORGIA : '';
-	  popupText += (feature.properties.cand_en_Lelo) ? "<br>Lelo: <b>" + feature.properties.cand_en_Lelo : '';
-	  popupText += (feature.properties.cand_en_Girchi) ? "<br>Girchi: <b>" + feature.properties.cand_en_Girchi : '';
-	  popupText += (feature.properties.cand_en_Mokalakeebi) ? "<br>Mokalakeebi: <b>" + feature.properties.cand_en_Mokalakeebi : '';
-	  popupText += (feature.properties.cand_en_For_Justice) ? "<br>For Justice: <b>" + feature.properties.cand_en_For_Justice : '';
-	  popupText += (feature.properties.cand_en_Solidarity) ? "<br>Solidarity Alliance: <b>" + feature.properties.cand_en_Solidarity : '';
-	  popupText += (feature.properties.cand_en_Victorius_Georgia) ? "<br>Victorious Georgia: <b>" + feature.properties.cand_en_Victorius_Georgia : '';
-	  popupText += (feature.properties.cand_en_Green_Party) ? "<br>Greens: <b>" + feature.properties.cand_en_Green_Party : '';
-	  popupText += (feature.properties.cand_en_Georgian_March) ? "<br>Georgian March: <b>" + feature.properties.cand_en_Georgian_March : '';
-	  popupText += (feature.properties.cand_en_Alliance_of_Patriots) ? "<br>Alliance of Patriots: <b>" + feature.properties.cand_en_Alliance_of_Patriots : '';
-	  popupText += (feature.properties.cand_en_Reformer) ? "<br>Reformer: <b>" + feature.properties.cand_en_Reformer : '';
-	  popupText += (feature.properties.cand_en_Free_Democrats) ? "<br>Free Democrats: <b>" + feature.properties.cand_en_Free_Democrats : '';
-	  popupText += (feature.properties.cand_en_Conservatives) ? "<br>Conservatives: <b>" + feature.properties.cand_en_Conservatives : '';
-	  popupText += (feature.properties.cand_en_Kartuli_Dasi) ? "<br>Kartuli Dasi: <b>" + feature.properties.cand_en_Kartuli_Dasi : '';	  popupText += (feature.properties.cand_en_Tribuna) ? "<br>Tribuna: <b>" + feature.properties.cand_en_Tribuna : '';
-	  popupText += (feature.properties.cand_en_Georgian_March) ? "<br>Georgian March: <b>" + feature.properties.cand_en_Georgian_March : '';
-	  popupText += (feature.properties.cand_en_Free_Georgia) ? "<br>Free Georgia: <b>" + feature.properties.cand_en_Free_Georgia : '';
-	  popupText += (feature.properties.cand_en_Social_Justice) ? "<br>Social Justice: <b>" + feature.properties.cand_en_Social_Justice : '';
-	  popupText += (feature.properties.cand_en_Independent) ? "<br>Independent: <b>" + feature.properties.cand_en_Independent : '';
+	  popupText += (feature.properties.OBJECTID) ? "<b>District " + (feature.properties.OBJECTID) + ": <b>" + feature.properties.NAME_EN: "";
+popupText += (feature.properties.whites) ? '<br>Whites: <b>' + feature.properties.whites : '';
+popupText += (feature.properties.european_goergia) ? '<br>Bakradze-Ugulava-Bokeria - European Georgia-Movement for Freedolm: <b>' + feature.properties.european_goergia : '';
+popupText += (feature.properties.democratic_movement) ? '<br>Nino Burjanadze - United Georgia-Democratic Movememnt: <b>' + feature.properties.democratic_movement : '';
+popupText += (feature.properties.tribuna) ? '<br>Davit Chichinadze Tribuna - CDM: <b>' + feature.properties.tribuna : '';
+popupText += (feature.properties.unm) ? '<br>United National Movement - United Opposition: <b>' + feature.properties.unm : '';
+popupText += (feature.properties.future_georgia) ? '<br>Future Georgia: <b>' + feature.properties.future_georgia : '';
+popupText += (feature.properties.mechiauri) ? '<br>Tamaz Mechiauri for United Georgia: <b>' + feature.properties.mechiauri : '';
+popupText += (feature.properties.apg) ? '<br>Davit Tarkhan-Mouravi, Irma Inashvili - Alliance of Patriots of Georgia: <b>' + feature.properties.apg : '';
+popupText += (feature.properties.greens) ? '<br>Gachechiladze-Green Party: <b>' + feature.properties.greens : '';
+popupText += (feature.properties.labor) ? '<br>Shalva Natelashvili-Labor Party of Georgia: <b>' + feature.properties.labor : '';
+popupText += (feature.properties.workers) ? '<br>Socialist Party of Workers: <b>' + feature.properties.workers : '';
+popupText += (feature.properties.reformer) ? '<br>Reformer: <b>' + feature.properties.reformer : '';
+popupText += (feature.properties.georgian_choice) ? '<br>Bezhan Gunava-Georgian Choice: <b>' + feature.properties.georgian_choice : '';
+popupText += (feature.properties.our_united_georgia) ? '<br>Our United Georgia: <b>' + feature.properties.our_united_georgia : '';
+popupText += (feature.properties.victorious_georgia) ? '<br>Irakli Okruashvili-Victorious Georgia: <b>' + feature.properties.victorious_georgia : '';
+popupText += (feature.properties.alliance) ? '<br>Our Georgia Solidarity Alliance: <b>' + feature.properties.alliance : '';
+popupText += (feature.properties.georgia) ? '<br>Georgia: <b>' + feature.properties.georgia : '';
+popupText += (feature.properties.free_georgia) ? '<br>Free Georgia (Kakha Kukava, Giorgi Tsulaia): <b>' + feature.properties.free_georgia : '';
+popupText += (feature.properties.new_force) ? '<br>New Force: <b>' + feature.properties.new_force : '';
+popupText += (feature.properties.citizens) ? '<br>Aleko Elisashvili-Citizens: <b>' + feature.properties.citizens : '';
+popupText += (feature.properties.free_democrats) ? '<br>Free Democrats: <b>' + feature.properties.free_democrats : '';
+popupText += (feature.properties.justice) ? '<br>Eka Beselia - For Justice: <b>' + feature.properties.justice : '';
+popupText += (feature.properties.agmashenebeli) ? '<br>Electoral Bloc Giorgi Vashadze - Strategy Aghmashenebeli: <b>' + feature.properties.agmashenebeli : '';
+popupText += (feature.properties.roots) ? '<br>Georgian Roots: <b>' + feature.properties.roots : '';
+popupText += (feature.properties.change_georgia) ? '<br>Change Georgia: <b>' + feature.properties.change_georgia : '';
+popupText += (feature.properties.freedom_zviads_way) ? '<br>Freedom-Zviad\'s Way: <b>' + feature.properties.freedom_zviads_way : '';
+popupText += (feature.properties.peoples_party) ? '<br>People\'s Party: <b>' + feature.properties.peoples_party : '';
+popupText += (feature.properties.girchi) ? '<br>Girchi: <b>' + feature.properties.girchi : '';
+popupText += (feature.properties.georgian_dream) ? '<br>Georgian Dream-Democratic Georgia: <b>' + feature.properties.georgian_dream : '';
+popupText += (feature.properties.zviads_way) ? '<br>Zviads\'s Way (For God, Truth, Country): <b>' + feature.properties.zviads_way : '';
+popupText += (feature.properties.georgian_idea) ? '<br>Levan Chachua, Guram Palavandishvili - Georgian Idea: <b>' + feature.properties.georgian_idea : '';
+popupText += (feature.properties.national_democrats) ? '<br>National Democratic Movement: <b>' + feature.properties.national_democrats : '';
+popupText += (feature.properties.conservatives) ? '<br>Zviad Dzidziguri - Conservative Party of Georgia: <b>' + feature.properties.conservatives : '';
+popupText += (feature.properties.georgian_troupe) ? '<br>Jondo Baghaturia - Georgian Troupe: <b>' + feature.properties.georgian_troupe : '';
+popupText += (feature.properties.progressive_georgia) ? '<br>Progressive Georgia: <b>' + feature.properties.progressive_georgia : '';
+popupText += (feature.properties.veterans) ? '<br>Political Movement of Veterans and Patriots: <b>' + feature.properties.veterans : '';
+popupText += (feature.properties.euroatlantic_vector) ? '<br>Sergo Javakhidze- Euroatlantic Vector: <b>' + feature.properties.euroatlantic_vector : '';
+popupText += (feature.properties.traditionalists) ? '<br>Traditionalists: <b>' + feature.properties.traditionalists : '';
+popupText += (feature.properties.georgian_march) ? '<br>Georgian March-National Movement: <b>' + feature.properties.georgian_march : '';
+popupText += (feature.properties.lelo) ? '<br>Lelo-Mamuka Khazaradze: <b>' + feature.properties.lelo : '';
+popupText += (feature.properties.development_party) ? '<br>Development Party of Georgia: <b>' + feature.properties.development_party : '';
+popupText += (feature.properties.independent_1) ? '<br>Independent candidate: <b>' + feature.properties.independent_1 : '';
+popupText += (feature.properties.independent_2) ? '<br>Independent candidate: <b>' + feature.properties.independent_2 : '';
+popupText += (feature.properties.independent_3) ? '<br>Independent candidate: <b>' + feature.properties.independent_3 : '';
+popupText += (feature.properties.independent_4) ? '<br>Independent candidate: <b>' + feature.properties.independent_4 : '';
+popupText += (feature.properties.independent_5) ? '<br>Independent candidate: <b>' + feature.properties.independent_5 : '';
+popupText += (feature.properties.independent_6) ? '<br>Independent candidate: <b>' + feature.properties.independent_6 : '';
+popupText += (feature.properties.independent_7) ? '<br>Independent candidate: <b>' + feature.properties.independent_7 : '';
+popupText += (feature.properties.independent_8) ? '<br>Independent candidate: <b>' + feature.properties.independent_8 : '';
+popupText += (feature.properties.independent_9) ? '<br>Independent candidate: <b>' + feature.properties.independent_9 : '';
+popupText += (feature.properties.independent_10) ? '<br>Independent candidate: <b>' + feature.properties.independent_10 : '';
+popupText += (feature.properties.independent_11) ? '<br>Independent candidate: <b>' + feature.properties.independent_11 : '';
+
       layer.bindPopup(popupText); 
     }
   }).addTo(map);
