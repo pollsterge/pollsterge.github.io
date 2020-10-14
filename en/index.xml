@@ -394,11 +394,11 @@ Another significant change in the new electoral code is associated with the prin
       <link>/en/polls/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/en/polls/</guid>
-      <description>&lt;p&gt;For electoral forecasting, we are currently using twenty-eight pre-electoral and political survey results that were conducted after the 2016 parliamentarian elections. Besides, data analysis also includes numbers from the 2016 Parliamentarian and 2017 local government elections.&lt;/p&gt;
+      <description>&lt;p&gt;For electoral forecasting, we are currently using thirty-six pre-electoral and political survey results that were conducted after the 2016 parliamentarian elections. Besides, data analysis also includes numbers from the 2016 Parliamentarian and 2017 local government elections.&lt;/p&gt;
 &lt;p&gt;The range of public opinion surveys is diverse in terms of fieldwork and data collections methodologies, as well as pollsters’ and commissioners’ political and institutional affiliations. The following circumstance makes it possible to capture the methodological and ideological variety characterizing Georgian society.&lt;/p&gt;
-&lt;p&gt;Polls used in our prediction models can be groups in three key categories. In the first category, polls conducted before the elections and pre-electoral period can be grouped. During that time, the specific date of the elections was not announced, electoral code was different from the current one, as well as political parties and elective block and unions were not formed. Polls conducted after the 2020 8 March agreement are grouped in the second category. The March 8th agreement transformed the Georgian electoral system to the almost proportional representation. The last category unites the polls that were conducted during the electoral period, after finalizing electoral code and all key actors of the elections were registered and identified.&lt;/p&gt;
+&lt;p&gt;Polls used in our prediction models can be groups in three key categories. In the first category, polls conducted before the elections and pre-electoral period can be grouped. During that time, the specific date of the elections was not announced, electoral code was different from the current one, as well as political parties and elective block and unions were not formed. Polls conducted after the 2020 March 8th agreement are grouped in the second category. The March 8th agreement transformed the Georgian electoral system to the almost proportional representation. The last category unites the polls that were conducted during the electoral period, after finalizing electoral code and all key actors of the elections were registered and identified.&lt;/p&gt;
 &lt;p&gt;When it comes to the differentiation of polls based on the methodology, our analysis employs two major groups of surveys: face to face and telephone interviews. An important caveat in this regard is the comparability issue, as the mode of the survey can affect the poll outcome. It is also important to take into consideration the wording of the questions used in different surveys. In some waves voting intentions are asked, while in some surveys just party affiliation or party support was probed.&lt;/p&gt;
-&lt;iframe src=&#34;/maps/polls/en/&#34; width=&#34;900&#34; height=&#34;2000&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;/maps/polls/en/&#34; width=&#34;800&#34; height=&#34;800&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
     
@@ -422,6 +422,33 @@ Another significant change in the new electoral code is associated with the prin
 &lt;p&gt;The methodology behind predictions is available &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;here&lt;/a&gt;. Replication code and dataset used above is available via &lt;a href=&#34;https://github.com/pollsterge/predictions&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Previous forecasts:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/july_13th/&#34;&gt;July 13th&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/en/previous_predictions/september_18th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/previous_predictions/september_18th/</guid>
+      <description>&lt;h2 id=&#34;forecasts-for-september-18th-2020&#34;&gt;Forecasts for September 18th, 2020&lt;/h2&gt;
+&lt;p&gt;Recently, several opinion polls were published in Georgia. Data came from international organizations the National Democratic Institute and the International Republican Institution as well as news media outlets Imedi, Rustavi 2, and Formula. This gave us enough materials to update our forecasts.&lt;/p&gt;
+&lt;p&gt;All surveys that are used in this forecast, were administered prior to the outbreak of Covid-19 in Georgia in early September. We do not have clear understanding how poll numbers were affected, although how volatile Georgian public opinion can get, we do expect some changes. In sum, the analysis below should be interpreted as something that reflects the situation ante, that is, a “pre-outbreak normal.”&lt;/p&gt;
+&lt;p&gt;As explained &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;in the methodology section&lt;/a&gt;, we only use proportions that reflect decided voters, that is, those who have disclosed their preferences. On the one hand, this is due to the fact that some pollsters (for instance, Survation/Rustavi 2) only publish results that show proportions among decided voters. Next, on what we saw in previous forecasts, proportions that are calculated without undecided respondents are to a large extent accurate reflection of what the public’s voting intentions are. Indeed, we acknowledge that this approach has its perils, for instance, not accounting for “shy opposition” voters, or the uncertainty associated with relatively smaller sample size.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/03_september_18/weighted_average_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Overall, the Georgian Dream seems to have been leading a league table in our “simplistic” weighted averages model and Bayesian forecasts. Weighted averages predict the ruling party being supported by 53% of those who have declared party preferences; Bayesian model speaks about 49% support. The discrepancies between these models can be explained by the sensitivity of the latter to outliers in raw poll numbers.&lt;/p&gt;
+&lt;p&gt;Weighted averages model predicts that nine oppositional parties have chances of getting into the parliament, although all of them except the United National Movement (18%), poll between 1% to 5%.&lt;/p&gt;
+&lt;p&gt;While polls seem to have not shifted drastically, our Bayesian model suggests relative decrease in chances of the Georgian Dream garnering 50% of voters. &lt;a href=&#34;https://www.pollster.ge/ka/previous_predictions/august_17th/&#34;&gt;While our previous forecast&lt;/a&gt; showed that the governing party had about 56% of doing so, now chances are about 48%.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/03_september_18/model_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Odds of overcoming a 40% “closing” threshold remain stable and high. The Georgian Dream has about 94% chance of obtaining enough votes for single-handedly forming the government.&lt;/p&gt;
+&lt;p&gt;There are almost negligible chances of the Georgian Dream either getting enough votes through proportional elections to have constitutional majority, or the United National Movement overtaking the ruling party.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/03_september_18/dynamics_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Similar to our previous predictions, our models hint on the volatility of support for the Georgian Dream. At a first glance, a Covid-induced boost for the ruling party seems to be plateaued and the Georgian Dream was almost guaranteed an easy ride if elections were held in late August. Nonetheless, it is too early to call the winner, as polls open in almost eight weeks from now. As we have no information how polls shifted due to the second outbreak, and there is still enough time for the opposition (and the government) to campaign, one can argue that the fate of elections will be sealed in the last weeks of October.&lt;/p&gt;
+&lt;p&gt;The methodology behind predictions is available &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;here&lt;/a&gt;. Replication code and dataset used above is available via &lt;a href=&#34;https://github.com/pollsterge/predictions&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Previous forecasts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/august_17th/&#34;&gt;August 17th&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/july_13th/&#34;&gt;July 13th&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
