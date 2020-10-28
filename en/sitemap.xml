@@ -170,6 +170,11 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/previous_predictions/october_14th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/previous_predictions/september_18th/"
                 />
     <xhtml:link
@@ -185,12 +190,56 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
+                href="/ka/previous_predictions/october_14th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
                 href="/ka/previous_predictions/september_18th/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="/en/previous_predictions/august_17th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/previous_predictions/october_14th/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/previous_predictions/august_17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/previous_predictions/september_18th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/previous_predictions/july_13th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/previous_predictions/august_17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/previous_predictions/october_14th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/previous_predictions/september_18th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/previous_predictions/october_14th/"
                 />
   </url>
   
@@ -204,12 +253,22 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/previous_predictions/october_14th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/previous_predictions/july_13th/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
                 href="/ka/previous_predictions/august_17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/previous_predictions/october_14th/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -247,12 +306,22 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/previous_predictions/october_14th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/previous_predictions/september_18th/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
                 href="/ka/previous_predictions/august_17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/previous_predictions/october_14th/"
                 />
     <xhtml:link
                 rel="alternate"
