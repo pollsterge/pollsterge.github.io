@@ -152,6 +152,20 @@
   </url>
   
   <url>
+    <loc>/en/live/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/live/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/live/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/polls/</loc>
     <xhtml:link
                 rel="alternate"
