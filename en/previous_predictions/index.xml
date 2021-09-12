@@ -47,11 +47,43 @@
 &lt;iframe src=&#34;/maps/parl_2020/predictions/04_october_14/model_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;According to our Bayesian model, chances the Georgian Dream has a relatively slim (27%) chance of receiving more than half of the proportional elections votes. Our simulations show that the most expected outcome of proportional polls would be that the Georgian Dream polls around 47%. As this would garner only fifty-six seats in the parliament, races in single-member (majoritarian) districts will be decisive. As the Georgian Dream is almost guaranteed to overcome the 40% &amp;ldquo;closing&amp;rdquo; threshold, they would aim to win at least twenty majoritarian seats to have a simple majority (76 MPs) in the parliament. Considering the current situation, this seems rather achievable.&lt;/p&gt;
 &lt;p&gt;None of the other parties poll enough to defeat the Georgian Dream single-handedly. Simulations show that it is almost impossible for them to overcome the closing 40% threshold too. Considering the low electoral threshold, all parties presented in the table below have decent chances of being represented in the new parliament. Despite this, only European Georgian and Strategy Aghmashenebeli seem to poll high enough for garnering six parliamentary seats necessary for an independent parliamentary faction.&lt;/p&gt;
-&lt;iframe src=&#34;/maps/chances/en/&#34; width=&#34;800&#34; height=&#34;800&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;/maps/chances/en/&#34; width=&#34;800&#34; height=&#34;650&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
 &lt;p&gt;As it stands and given that no dramatic changes occur until the election day, the Georgian Dream is expected to win the plurality of votes. Though the main intrigue will rest on single-member district races. Unfortunately, as poll data on majoritarian races are very scant, we cannot provide predictions. Another issue to watch is which party Georgian Dream decides to partner with if it fails to win enough majoritarian seats necessary for a simple majority.&lt;/p&gt;
 &lt;p&gt;The methodology behind these predictions is available &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;here&lt;/a&gt;. The replication code and dataset used above is available via  &lt;a href=&#34;https://github.com/pollsterge/predictions&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Previous forecasts:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/september_18th/&#34;&gt;September 18th&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/august_17th/&#34;&gt;August 17th&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/july_13th/&#34;&gt;July 13th&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+&lt;p&gt;Pollster.ge is an independent, non-commercial, non-partisan project that aims at collecting, systematizing, and processing open-access polling data in Georgia.The project is an independent initiative and is by no means linked to any of our employers. Election forecasts are based on statistical modeling of raw data through transparent methodology. Authors are not responsible for the quality of the raw data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/en/previous_predictions/october_28th/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/en/previous_predictions/october_28th/</guid>
+      <description>&lt;h2 id=&#34;forecast-for-october-28th-2020&#34;&gt;Forecast for October 28th, 2020&lt;/h2&gt;
+&lt;p&gt;Two days before the 2020 Parliamentary Elections of Georgia, Pollster.ge publishes its fifth and final forecasts. Overall, the ruling Georgian Dream party will face challenges in forming the majority in the parliament, while elections most probably will be decided in single-member districts.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/05_october_28/weighted_average_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Our previous forecast showed that ratings for the ruling party were diminishing. The trend was also maintained in the most recent polls too. The weighted averages model indicates that the ruling party&amp;rsquo;s support shrunk from [47% to 42%](&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/october_14th/&#34;&gt;October 14th&lt;/a&gt;, as ratings have improved for the opposition. Nonetheless, only the United National Movement polls in two-digit numbers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/05_october_28/dynamics_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Seemingly, time works against the Georgian Dream. We have explained why the aggravated epidemiological conditions might have deteriorated their poll numbers. In parallel with the growing number of COVID-19 cases and deaths, support for the Georgian Dream diminished. Presumably, the hostage crisis in &lt;a href=&#34;https://1tv.ge/news/zugdidshi-saqartvelos-bankshi-sheiaraghebulma-pirma-mdzevlebi-aiyvana/&#34;&gt;Zugdidi&lt;/a&gt; contributed to the declining support for the ruling party. While numbers are shrinking, changes are not that dramatic to prevent the Georgian Dream from winning proportional polls.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/parl_2020/predictions/05_october_28/model_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Our Bayesian model indicates the same. Instead of forecasting the latest public opinion poll numbers, we estimated weighted averages of all polls in our updated model. Nonetheless, the dynamics are somewhat expected: as the Georgian Dream has almost no chance of passing through the 50% barrier, the party is highly likely to win enough votes for passing through the closing 40.5% threshold. We project that the party has about an 80% chance of doing so. Other political groups have no chance to win over the Georgian Dream or squeak through the closing threshold.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/chances/en/&#34; width=&#34;800&#34; height=&#34;650&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Another question is, how will smaller political parties do in proportional voting. This might be important if there is a necessity to form a governing coalition. Those parties which are already in the parliament are projected to win seats again. Besides, &amp;ldquo;Strategy Aghmashenebeli,&amp;rdquo; &amp;ldquo;Lelo,&amp;rdquo; &amp;ldquo;Girchi,&amp;rdquo; and the Labor Party are highly likely to end up in the parliament. Nonetheless, only &amp;ldquo;Strategy Aghmashenebeli&amp;rdquo; and &amp;ldquo;European Georgia&amp;rdquo; have reasonable chances of having enough seats for having a separate faction, as does &amp;ldquo;Lelo.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;If our projections are correct, it is highly likely that voting in majoritarian elections will decide who will form the government. As it stands now, the Georgian Dream needs at least 27 majoritarian seats to form a simple majority. Unfortunately, we are unable to forecast majoritarian races. Therefore, our understanding is based on the experience of previous elections. As the latter shows us, ruling parties almost always have an incumbent advantage in majoritarian races.&lt;/p&gt;
+&lt;p&gt;The methodology behind these predictions is available &lt;a href=&#34;https://www.pollster.ge/en/methods/&#34;&gt;here&lt;/a&gt;. The replication code and dataset used above is available via  &lt;a href=&#34;https://github.com/pollsterge/predictions&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Previous forecasts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/october_14th/&#34;&gt;October 14th&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/september_18th/&#34;&gt;September 18th&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/august_17th/&#34;&gt;August 17th&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.pollster.ge/en/previous_predictions/july_13th/&#34;&gt;July 13th&lt;/a&gt;&lt;/li&gt;

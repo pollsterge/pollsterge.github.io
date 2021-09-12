@@ -4,7 +4,7 @@
   
   <url>
     <loc>/ka/</loc>
-    <lastmod>2018-11-28T08:47:11+01:00</lastmod>
+    <lastmod>2020-10-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>/ka/elections_2018/</loc>
-    <lastmod>2018-11-28T08:47:11+01:00</lastmod>
+    <lastmod>2020-10-28T08:47:11+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,6 +29,131 @@
                 rel="alternate"
                 hreflang="ka"
                 href="/ka/elections_2018/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2020-10-28t100000_october_28th/october_28th/</loc>
+    <lastmod>2020-10-28T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2020-10-28t100000_october_28th/october_28th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-10-28t100000_october_28th/october_28th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2020-10-14t100000_october_14th/october_14th/</loc>
+    <lastmod>2020-10-14T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2020-10-14t100000_october_14th/october_14th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-10-14t100000_october_14th/october_14th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2020-09-18t100000_september18/september_18th/</loc>
+    <lastmod>2020-09-18T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2020-09-18t100000_september18/september_18th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-09-18t100000_september18/september_18th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2020-08-17t100000_august_17th/august_17th/</loc>
+    <lastmod>2020-08-17T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2020-08-17t100000_august_17th/august_17th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-08-17t100000_august_17th/august_17th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2018-10-29t084711_polls_2020/polls/</loc>
+    <lastmod>2020-07-13T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2018-10-29t084711_polls_2020/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2018-10-29t084711_polls_2020/polls/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2020-07-13t100000_july_13th/july_13th/</loc>
+    <lastmod>2020-07-13T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2020-07-13t100000_july_13th/july_13th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-07-13t100000_july_13th/july_13th/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/elections_2018/2020-07-12t100000_methods/methods/</loc>
+    <lastmod>2020-07-12T08:47:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/elections_2018/2020-07-12t100000_methods/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-07-12t100000_methods/methods/"
                 />
   </url>
   
@@ -138,6 +263,20 @@
   </url>
   
   <url>
+    <loc>/ka/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/about/"
+                />
+  </url>
+  
+  <url>
     <loc>/ka/electoral_system/</loc>
     <xhtml:link
                 rel="alternate"
@@ -170,7 +309,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/elections_2018/2018-10-29t084711_polls_2020/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/polls/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2018-10-29t084711_polls_2020/polls/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -198,6 +347,11 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/previous_predictions/october_28th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/previous_predictions/september_18th/"
                 />
     <xhtml:link
@@ -213,7 +367,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/previous_predictions/september_18th/"
+                href="/ka/previous_predictions/october_28th/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -237,6 +391,11 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/previous_predictions/october_28th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/previous_predictions/september_18th/"
                 />
     <xhtml:link
@@ -252,7 +411,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/previous_predictions/september_18th/"
+                href="/ka/previous_predictions/october_28th/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -262,7 +421,7 @@
   </url>
   
   <url>
-    <loc>/ka/previous_predictions/september_18th/</loc>
+    <loc>/ka/previous_predictions/october_28th/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -276,6 +435,11 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/previous_predictions/october_28th/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/previous_predictions/september_18th/"
                 />
     <xhtml:link
@@ -296,7 +460,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="ka"
-                href="/ka/previous_predictions/september_18th/"
+                href="/ka/previous_predictions/october_28th/"
                 />
   </url>
   
@@ -319,7 +483,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="/en/elections_2018/2020-07-12t100000_methods/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
                 href="/en/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/elections_2018/2020-07-12t100000_methods/methods/"
                 />
     <xhtml:link
                 rel="alternate"

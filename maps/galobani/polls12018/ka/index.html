@@ -1,0 +1,122 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 10px;
+	
+}
+</style>
+<table id = "example">
+<thead>
+  <tr>
+    <th rowspan="2">კანდიდატი</th>
+    <th colspan="2">საშუალო შეწონილი (%)</th>
+    <th colspan="2">“state space” მოდელი<br> &nbsp;&nbsp;  %, სიმულაციათა მედიანური მნიშვნელობა) </th>
+    <th rowspan="2">ცესკოს შედეგები (%)</th>
+  </tr>
+  <tr>
+    <th>Pollster.ge-ის პროგნოზი</th>
+    <th>სხვაობა ცესკოსთან</th>
+    <th>Pollster.ge-ის პროგნოზი</th>
+    <th>სხვაობა ცესკოსთან</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>სალომე ზურაბიშვილი</td>
+    <td>35</td>
+    <td>-4</td>
+    <td>39</td>
+    <td>0</td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td>გრიგოლ ვაშაძე</td>
+    <td>27</td>
+    <td>-11</td>
+    <td>25</td>
+    <td>-13</td>
+    <td>38</td>
+  </tr>
+  <tr>
+    <td>დავით ბაქრაძე</td>
+    <td>18</td>
+    <td>7</td>
+    <td>20</td>
+    <td>9</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>დავით უსუფაშვილი</td>
+    <td>1</td>
+    <td>-1</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>ზურაბ ჯაფარიძე </td>
+    <td>3</td>
+    <td>1</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>შალვა ნათელაშვილი</td>
+    <td>5</td>
+    <td>1</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>სხვა</td>
+    <td>11</td>
+    <td>7</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>4</td>
+  </tr>
+</tbody>
+</table>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	"order": [[ 0, "desc" ]],
+	responsive: true,
+        dom: 'Bfrtip',
+//        columnDefs: [
+//            {
+//                targets: [0, 1, 2, ],
+//                // className: 'noVis',
+//				visible: false
+//            }
+//        ],
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ],
+    language: {
+        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
+    }
+    } );
+} );
+</script>
+</html>

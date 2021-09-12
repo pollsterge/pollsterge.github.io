@@ -1,0 +1,154 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 10px;
+	
+}
+</style>
+<table id = "example">
+<table>
+<thead>
+  <tr>
+    <th> </th>
+    <th>IPSOS / Mtavari Arkhi</th>
+    <th>POS / Imedi</th>
+    <th>Survation / Rustavi 2 </th>
+    <th>Edison Research / Formula</th>
+    <th>Pollster</th>
+    <th>CEC</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>GD</td>
+    <td>41</td>
+    <td>54</td>
+    <td>51</td>
+    <td>46</td>
+    <td>42</td>
+    <td>48</td>
+  </tr>
+  <tr>
+    <td>UNM</td>
+    <td>33</td>
+    <td>24</td>
+    <td>25</td>
+    <td>28</td>
+    <td>26</td>
+    <td>27</td>
+  </tr>
+  <tr>
+    <td>European Georgia</td>
+    <td>5</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>7</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Alliance of Patriots</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>3</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Labor</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Strategy Aghmashenebeli</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>2</td>
+    <td>6</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Girchi</td>
+    <td>3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Lelio</td>
+    <td>4</td>
+    <td>3</td>
+    <td>3</td>
+    <td>3</td>
+    <td>5</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Citizens</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Other parties</td>
+    <td>6</td>
+    <td>5</td>
+    <td>5</td>
+    <td>9</td>
+    <td>3</td>
+    <td>6</td>
+  </tr>
+</tbody>
+</table>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	"order": [[ 0, "desc" ]],
+	responsive: true,
+        dom: 'Bfrtip',
+//        columnDefs: [
+//            {
+//                targets: [0, 1, 2, ],
+//                // className: 'noVis',
+//				visible: false
+//            }
+//        ],
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ],
+//    language: {
+//        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
+//    }
+    } );
+} );
+</script>
+</html>
