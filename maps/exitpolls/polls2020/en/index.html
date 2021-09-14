@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 10px;
+	
+}
+</style>
+<table id = "example">
+<thead>
+  <tr>
+    <th>Polling initiative</th>
+    <th>Error, all parties</th>
+    <th>Error, GD and UNM</th>
+    <th>Fieldwork completion date</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Edison Research / Formula</td>
+    <td>0.019872085</td>
+    <td>0.034551757</td>
+    <td>2020-10-07</td>
+  </tr>
+  <tr>
+    <td>IRI/IPM </td>
+    <td>0.022271981</td>
+    <td>0.041375819</td>
+    <td>2020-08-21</td>
+  </tr>
+  <tr>
+    <td>CRRC Omnibus (allocated/weighted)</td>
+    <td>0.027070578</td>
+    <td>0.056012477</td>
+    <td>2020-10-14</td>
+  </tr>
+  <tr>
+    <td>Survation / Rustavi-2</td>
+    <td>0.031385028</td>
+    <td>0.060332744</td>
+    <td>2020-10-20</td>
+  </tr>
+  <tr>
+    <td>GORBI / Imedi</td>
+    <td>0.033319814</td>
+    <td>0.075341489</td>
+    <td>2020-10-20</td>
+  </tr>
+  <tr>
+    <td>IPSOS / Mtavari</td>
+    <td>0.036377267</td>
+    <td>0.06942621</td>
+    <td>2020-10-27</td>
+  </tr>
+  <tr>
+    <td>CRRC Caucasus Barometer</td>
+    <td>0.044624659</td>
+    <td>0.069593916</td>
+    <td>2019-11-04</td>
+  </tr>
+  <tr>
+    <td>NDI/CRRC</td>
+    <td>0.05039511</td>
+    <td>0.130970899</td>
+    <td>2020-08-11</td>
+  </tr>
+  <tr>
+    <td>IPSOS / Rustavi-2</td>
+    <td>0.052381374</td>
+    <td>0.043258469</td>
+    <td>2019-05-14</td>
+  </tr>
+  <tr>
+    <td>IPSOS / Formula</td>
+    <td>0.059933284</td>
+    <td>0.116903034</td>
+    <td>2020-01-20</td>
+  </tr>
+  <tr>
+    <td>European Georgia</td>
+    <td>0.061709252</td>
+    <td>0.125438095</td>
+    <td>2020-10-25</td>
+  </tr>
+  <tr>
+    <td>CRRC Covid-19 Monitor</td>
+    <td>0.076626341</td>
+    <td>0.175424995</td>
+    <td>2020-05-31</td>
+  </tr>
+</tbody>
+</table>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	"order": [[ 1, "asc" ]],
+	responsive: true,
+        dom: 'Bfrtip',
+//        columnDefs: [
+//            {
+//                targets: [0, 1, 2, ],
+//                // className: 'noVis',
+//				visible: false
+//            }
+//        ],
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ],
+    language: {
+        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
+    }
+    } );
+} );
+</script>
+</html>

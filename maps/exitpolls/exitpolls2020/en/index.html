@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 10px;
+	
+}
+</style>
+<table id = "example">
+<thead>
+  <tr>
+    <th>Polling initiative</th>
+    <th>Error, all parties</th>
+    <th>Error, GD and UNM</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Edison Research / Formula</td>
+    <td>0.009441928</td>
+    <td>0.016734396</td>
+  </tr>
+  <tr>
+    <td>Survation / Rustavi 2</td>
+    <td>0.011521357</td>
+    <td>0.025592577</td>
+  </tr>
+  <tr>
+    <td>Public Opinion Strategies/ Imedi</td>
+    <td>0.019790149</td>
+    <td>0.046648044</td>
+  </tr>
+  <tr>
+    <td>IPSOS / Mtavari Arkhi</td>
+    <td>0.027507272</td>
+    <td>0.06557469</td>
+  </tr>
+</tbody>
+</table>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/plug-ins/1.11.1/sorting/datetime-moment.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	"order": [[ 1, "asc" ]],
+	responsive: true,
+        dom: 'Bfrtip',
+//        columnDefs: [
+//            {
+//                targets: [0, 1, 2, ],
+//                // className: 'noVis',
+//				visible: false
+//            }
+//        ],
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ],
+//    language: {
+//        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
+//    }
+    } );
+} );
+</script>
+</html>
