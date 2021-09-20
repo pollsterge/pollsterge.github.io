@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>Pollster.ge</title>
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/en/index.xml">
-<meta name="description" content="Hymns of Repentance, or How did Our Forecasts Work? Two days before the 2020 Parliamentary Elections of Georgia, Pollster.ge publishes its fifth and final forecasts. …">
+<meta name="description" content="Post Mortem: The 2020 Parliamentary Elections, Polls, and Exit Polls In the 2020 parliamentary elections, we again faced so-called &amp;ldquo;polling wars,&amp;rdquo; yet, …">
 <meta name="created" content="2021-09-13T08:47:11+0100">
 <meta name="modified" content="2021-09-13T08:47:11+0100">
 
@@ -101,30 +101,17 @@ if (!doNotTrack) {
 <main class="main layout__main">
 <article class="single-view">
 <div class="content">
-<h2 id="hymns-of-repentance-or-how-did-our-forecasts-work">Hymns of Repentance, or How did Our Forecasts Work?</h2>
-<p>Two days before the 2020 Parliamentary Elections of Georgia, Pollster.ge publishes its fifth and final forecasts. Overall, the ruling Georgian Dream party will face challenges in forming the majority in the parliament, while elections most probably will be decided in single-member districts.</p>
-<iframe src="/maps/parl_2020/predictions/05_october_28/weighted_average_en.html" width="800" height="570" overflow="noscroll" frameborder="0" margin="0" padding="0"></iframe>
-<p>Our previous forecast showed that ratings for the ruling party were diminishing. The trend was also maintained in the most recent polls too. The weighted averages model indicates that the ruling party&rsquo;s support shrunk from [47% to 42%](</p>
-<ul>
-<li><a href="https://www.pollster.ge/en/previous_predictions/october_14th/">October 14th</a>, as ratings have improved for the opposition. Nonetheless, only the United National Movement polls in two-digit numbers.</li>
-</ul>
-<iframe src="/maps/parl_2020/predictions/05_october_28/dynamics_en.html" width="800" height="570" overflow="noscroll" frameborder="0" margin="0" padding="0"></iframe>
-<p>Seemingly, time works against the Georgian Dream. We have explained why the aggravated epidemiological conditions might have deteriorated their poll numbers. In parallel with the growing number of COVID-19 cases and deaths, support for the Georgian Dream diminished. Presumably, the hostage crisis in <a href="https://1tv.ge/news/zugdidshi-saqartvelos-bankshi-sheiaraghebulma-pirma-mdzevlebi-aiyvana/">Zugdidi</a> contributed to the declining support for the ruling party. While numbers are shrinking, changes are not that dramatic to prevent the Georgian Dream from winning proportional polls.</p>
-<iframe src="/maps/parl_2020/predictions/05_october_28/model_en.html" width="800" height="570" overflow="noscroll" frameborder="0" margin="0" padding="0"></iframe>
-<p>Our Bayesian model indicates the same. Instead of forecasting the latest public opinion poll numbers, we estimated weighted averages of all polls in our updated model. Nonetheless, the dynamics are somewhat expected: as the Georgian Dream has almost no chance of passing through the 50% barrier, the party is highly likely to win enough votes for passing through the closing 40.5% threshold. We project that the party has about an 80% chance of doing so. Other political groups have no chance to win over the Georgian Dream or squeak through the closing threshold.</p>
-<iframe src="/maps/chances/en/" width="800" height="650" overflow="noscroll" frameborder="0" margin="0" padding="0"></iframe>
-<p>Another question is, how will smaller political parties do in proportional voting. This might be important if there is a necessity to form a governing coalition. Those parties which are already in the parliament are projected to win seats again. Besides, &ldquo;Strategy Aghmashenebeli,&rdquo; &ldquo;Lelo,&rdquo; &ldquo;Girchi,&rdquo; and the Labor Party are highly likely to end up in the parliament. Nonetheless, only &ldquo;Strategy Aghmashenebeli&rdquo; and &ldquo;European Georgia&rdquo; have reasonable chances of having enough seats for having a separate faction, as does &ldquo;Lelo.&rdquo;</p>
-<p>If our projections are correct, it is highly likely that voting in majoritarian elections will decide who will form the government. As it stands now, the Georgian Dream needs at least 27 majoritarian seats to form a simple majority. Unfortunately, we are unable to forecast majoritarian races. Therefore, our understanding is based on the experience of previous elections. As the latter shows us, ruling parties almost always have an incumbent advantage in majoritarian races.</p>
-<p>The methodology behind these predictions is available <a href="https://www.pollster.ge/en/methods/">here</a>. The replication code and dataset used above is available via  <a href="https://github.com/pollsterge/predictions">Github</a>.</p>
-<p>Previous forecasts:</p>
-<ul>
-<li><a href="https://www.pollster.ge/en/previous_predictions/october_14th/">October 14th</a></li>
-<li><a href="https://www.pollster.ge/en/previous_predictions/september_18th/">September 18th</a></li>
-<li><a href="https://www.pollster.ge/en/previous_predictions/august_17th/">August 17th</a></li>
-<li><a href="https://www.pollster.ge/en/previous_predictions/july_13th/">July 13th</a></li>
-</ul>
-<h3 id="about">About</h3>
-<p>Pollster.ge is an independent, non-commercial, non-partisan project that aims at collecting, systematizing, and processing open-access polling data in Georgia.The project is an independent initiative and is by no means linked to any of our employers. Election forecasts are based on statistical modeling of raw data through transparent methodology. Authors are not responsible for the quality of the raw data.</p>
+<h2 id="post-mortem-the-2020-parliamentary-elections-polls-and-exit-polls">Post Mortem: The 2020 Parliamentary Elections, Polls, and Exit Polls</h2>
+<p>In the 2020 parliamentary elections, we again faced so-called &ldquo;polling wars,&rdquo; yet, opinion research landscape was reasonably diverse. Thirty polls were conducted in the year leading to the 2020 parliamentary elections, with results available to the public. On election day, four different organizations conducted exit polls. How accurate or inaccurate are the pre-election polls and poll-based predictions? In this post, we will review how pre-election polls and exit polls predicted winners.</p>
+<p>The pandemic affected how polling is done in Georgia. For example, surveys conducted by the National Democratic Institute and CRRC-Georgia in 2020 were usually administered over the phone. Such an approach was also used by other pollsters too. Still, other pollsters preferred to administer surveys in person.</p>
+<p>To assess the quality of the election forecast, we compared the results of publicly available polls with election outcomes. To assess the degree of difference of each research initiative, we calculated a simple indicator - Root Mean Square Error (RMSE). RMSE is a root of differences between the squares of the predicted proportions for each party in a poll and the election result. For comparison, we took polls that were conducted closest to the election day. As a result, the RMSE indicator allows us to rank polling initiatives by their proximity to elections.</p>
+<p>How accurate were exit polls? The table below provides two sets of indicators. The first value of the RMSE is calculated for all parties. The other assesses the accuracy of how a polling initiative predicted vote share only for the Georgian Dream and the United National Movement parties.</p>
+<iframe src="/maps/exitpolls/exitpolls2020/en/" width="800" height="270" scrolling="auto" frameborder="0" margin="0" padding="0"></iframe>
+<p>Edison Research&rsquo;s exit poll leads the prediction quality league table. The organization had the smallest error both when predicting results for all parties and the most significant two parties. The exit poll conducted by Ipsos for the Mtavari TV channel turned out to be the most inaccurate. Survation&rsquo;s forecast was relatively close, while the survey for Imedi was also fairly off from election results. Needless to say, that exit polls conducted by media outlets with strong political sympathies were particularly inaccurate in their forecasted vote share for major parties.</p>
+<p>As for the pre-election polls, Edison Research also stood out in its quality. Their opinion polls closely coincided with the election results, despite the fact that the organization&rsquo;s nearest survey to the voting date was completed on September 7th, that is, almost three weeks prior to the election day. The IRI survey that was conducted in mid-August was also reasonably close to election results (as a caveat, we used proportions for decided votes, thus excluding those who answered Don&rsquo;t know or refused to answer). Next was our own re-calculation based on  CRRC-Georgia&rsquo;s omnibus survey. Here we used the non-response weighting method to re-allocate undecided votes or refusals.</p>
+<iframe src="/maps/exitpolls/polls2020/en/" width="800" height="650" overflow="noscroll" frameborder="0" margin="0" padding="0"></iframe>
+<p>Notably, fieldworks for Survation, Gorbi, and Ipsos opinion polls were closest to the election day. Nonetheless, their estimates were considerably off from election results than that of Edison Research, IRI, or Omnibus.</p>
+<p>In short, the accuracy of estimates of political affiliation varies across polling initiatives. Thus, when forecasting election outcomes, it is essential to account for pollster accuracy. In our future posts, we will discuss in detail how we resolved this problem when working on the updated Pollster.ge forecasts.</p>
 
 </div>
 </article>
