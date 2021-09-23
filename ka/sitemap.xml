@@ -157,16 +157,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/en/methods/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/methods/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ka"
                 href="/ka/elections_2018/2020-07-12t100000_methods/methods/"
                 />
@@ -494,30 +484,6 @@
   </url>
   
   <url>
-    <loc>/ka/methods/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/elections_2018/2020-07-12t100000_methods/methods/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/methods/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/elections_2018/2020-07-12t100000_methods/methods/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ka"
-                href="/ka/methods/"
-                />
-  </url>
-  
-  <url>
     <loc>/ka/previous_predictions/</loc>
     <xhtml:link
                 rel="alternate"
@@ -542,6 +508,20 @@
                 rel="alternate"
                 hreflang="ka"
                 href="/ka/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/ka/methods/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/methods/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ka"
+                href="/ka/methods/"
                 />
   </url>
   

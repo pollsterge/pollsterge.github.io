@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta charset=utf-8 />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.semanticui.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+</head>
+<body>
+<style>
+  .table.dataTable  {
+    font-family: BPG_upper, BPG_lower;
+    font-size: 10px;
+	
+}
+</style>
+<table id = "example">
+<thead>
+  <tr>
+    <th>Polling initiative</th>
+    <th>Weight</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Elections</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Edison Research / Formula</td>
+    <td>0.881009102</td>
+  </tr>
+  <tr>
+    <td>Rustavi 2 / Survation</td>
+    <td>0.854803315</td>
+  </tr>
+  <tr>
+    <td>POS/ GORBI / Imedi</td>
+    <td>0.750596735</td>
+  </tr>
+  <tr>
+    <td>IRI/IPM</td>
+    <td>0.719319705</td>
+  </tr>
+  <tr>
+    <td>CRRC Omnibus</td>
+    <td>0.686650155</td>
+  </tr>
+  <tr>
+    <td>IPSOS / Rustavi 2</td>
+    <td>0.685699183</td>
+  </tr>
+  <tr>
+    <td>IPSOS/Mtavari Arkhi</td>
+    <td>0.653342511</td>
+  </tr>
+  <tr>
+    <td>CRRC / Caucasus Barometer 2019</td>
+    <td>0.556463913</td>
+  </tr>
+  <tr>
+    <td>IPSOS / Formula</td>
+    <td>0.297606945</td>
+  </tr>
+  <tr>
+    <td>NDI/CRRC</td>
+    <td>0.264994745</td>
+  </tr>
+  <tr>
+    <td>European Georgia</td>
+	<td>0.222315665</td>
+  </tr>
+  <tr>
+    <td>CRRC Covid-19 Monitor</td>
+    <td>0.113027724</td>
+  </tr>
+</tbody>
+</table>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.21/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+  <script>
+$(document).ready(function() {
+    $('#example').DataTable( {
+	"order": [[ 1, "desc" ]],
+	responsive: true,
+        dom: 'Bfrtip',
+//        columnDefs: [
+//            {
+//                targets: [0, 1, 2, ],
+//                // className: 'noVis',
+//				visible: false
+//            }
+//        ],
+        buttons: [
+            {
+                extend: 'colvis',
+                columns: ':not(.noVis)'
+            }
+        ],
+//    language: {
+//        url: 'https://cdn.datatables.net/plug-ins/1.10.21/i18n/Georgian.json'
+//    }
+    } );
+} );
+</script>
+</html>
