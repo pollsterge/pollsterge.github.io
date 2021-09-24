@@ -6,8 +6,26 @@
     <description>Recent content in About on Pollster.ge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 Sep 2021 08:47:11 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 15 Sep 2021 08:47:11 +0100</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>POST MORTEM: THE 2020 PARLIAMENTARY ELECTIONS, POLLS, AND EXIT POLLS</title>
+      <link>/en/elections_2018/2021-09-15t100000_postmortem/postmortem/</link>
+      <pubDate>Wed, 15 Sep 2021 08:47:11 +0100</pubDate>
+      <guid>/en/elections_2018/2021-09-15t100000_postmortem/postmortem/</guid>
+      <description>&lt;p&gt;In the 2020 parliamentary elections, we again faced so-called &amp;ldquo;polling wars,&amp;rdquo; yet, opinion research landscape was reasonably diverse. Thirty polls were conducted in the year leading to the 2020 parliamentary elections, with results available to the public. On election day, four different organizations conducted exit polls. How accurate or inaccurate are the pre-election polls and poll-based predictions? In this post, we will review how pre-election polls and exit polls predicted winners.&lt;/p&gt;
+&lt;p&gt;The pandemic affected how polling is done in Georgia. For example, surveys conducted by the National Democratic Institute and CRRC-Georgia in 2020 were usually administered over the phone. Such an approach was also used by other pollsters too. Still, other pollsters preferred to administer surveys in person.&lt;/p&gt;
+&lt;p&gt;To assess the quality of the election forecast, we compared the results of publicly available polls with election outcomes. To assess the degree of difference of each research initiative, we calculated a simple indicator - Root Mean Square Error (RMSE). RMSE is a root of differences between the squares of the predicted proportions for each party in a poll and the election result. For comparison, we took polls that were conducted closest to the election day. As a result, the RMSE indicator allows us to rank polling initiatives by their proximity to elections.&lt;/p&gt;
+&lt;p&gt;How accurate were exit polls? The table below provides two sets of indicators. The first value of the RMSE is calculated for all parties. The other assesses the accuracy of how a polling initiative predicted vote share only for the Georgian Dream and the United National Movement parties.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/exitpolls/exitpolls2020/en/&#34; width=&#34;800&#34; height=&#34;270&#34; scrolling=&#34;auto&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Edison Research&amp;rsquo;s exit poll leads the prediction quality league table. The organization had the smallest error both when predicting results for all parties and the most significant two parties. The exit poll conducted by Ipsos for the Mtavari TV channel turned out to be the most inaccurate. Survation&amp;rsquo;s forecast was relatively close, while the survey for Imedi was also fairly off from election results. Needless to say, that exit polls conducted by media outlets with strong political sympathies were particularly inaccurate in their forecasted vote share for major parties.&lt;/p&gt;
+&lt;p&gt;As for the pre-election polls, Edison Research also stood out in its quality. Their opinion polls closely coincided with the election results, despite the fact that the organization&amp;rsquo;s nearest survey to the voting date was completed on September 7th, that is, almost three weeks prior to the election day. The IRI survey that was conducted in mid-August was also reasonably close to election results (as a caveat, we used proportions for decided votes, thus excluding those who answered Don&amp;rsquo;t know or refused to answer). Next was our own re-calculation based on  CRRC-Georgia&amp;rsquo;s omnibus survey. Here we used the non-response weighting method to re-allocate undecided votes or refusals.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/exitpolls/polls2020/en/&#34; width=&#34;800&#34; height=&#34;650&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Notably, fieldworks for Survation, Gorbi, and Ipsos opinion polls were closest to the election day. Nonetheless, their estimates were considerably off from election results than that of Edison Research, IRI, or Omnibus.&lt;/p&gt;
+&lt;p&gt;In short, the accuracy of estimates of political affiliation varies across polling initiatives. Thus, when forecasting election outcomes, it is essential to account for pollster accuracy. In our future posts, we will discuss in detail how we resolved this problem when working on the updated Pollster.ge forecasts.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>HYMNS OF REPENTANCE, OR HOW DID OUR FORECASTS WORK?</title>
