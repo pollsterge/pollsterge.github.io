@@ -6,8 +6,23 @@
     <description>Recent content in About on Pollster.ge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 15 Sep 2021 08:47:11 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 08:47:11 +0100</lastBuildDate>
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Forecasts as of September 5</title>
+      <link>/en/elections_2018/2021-09-20t100000_asofsep5/as_of_sep5/</link>
+      <pubDate>Mon, 20 Sep 2021 08:47:11 +0100</pubDate>
+      <guid>/en/elections_2018/2021-09-20t100000_asofsep5/as_of_sep5/</guid>
+      <description>&lt;h2 id=&#34;forecasts-as-of-september-5&#34;&gt;Forecasts as of September 5&lt;/h2&gt;
+&lt;p&gt;We present the first wave of Pollster.ge forecasts. As of September 5, when the fieldwork for the last poll ended, the ruling Georgian Dream party polled at about 33%, followed by the United National Movement with 25%, For Georgia at 8%, and the Labor party at 6%. Other political parties polled less than 5%.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/interactive/polling_model_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;Our forecasts are close to Edson Research&amp;rsquo;s, as its results are weighted higher in our model. Individual polls are more influential because we have fewer data points to aggregate than the last elections.&lt;/p&gt;
+&lt;p&gt;As the last poll that we used in our forecasts was completed on September 5, results do not account for the events that happened aftermath, for instance, leaks of the State Security Services files and ENKA&amp;rsquo;s recall of the Namokhvani hydropower plant contract.&lt;/p&gt;
+&lt;iframe src=&#34;/maps/interactive/trendline_en.html&#34; width=&#34;800&#34; height=&#34;570&#34; overflow=&#34;noscroll&#34; frameborder=&#34;0&#34; margin=&#34;0&#34; padding=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;How did party ratings change over the last year? Our analysis shows that poll numbers for the Georgian Dream were declining, which could be explained by the political, economic, and epidemiological crisis and former prime minister Giorgi Gakharia&amp;rsquo;s departure from the party. When looking at ratings of the latter&amp;rsquo;s new political party, their increase somewhat coincides with the decline of average polling numbers for the Georgian Dream. As for the United National Movement, its ratings stay steady. When it comes to smaller political parties, their poll numbers are unstable and thus hard to analyze. Usually, minor political parties poll high in surveys, although they do worse in elections. Therefore estimating their support is somewhat challenging.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>POST MORTEM: THE 2020 PARLIAMENTARY ELECTIONS, POLLS, AND EXIT POLLS</title>
